@@ -46,7 +46,7 @@ class openWeb():
 
 
 
-o=openWeb()
-o.writeSetUp()
-o.writeTearDown()
+# o=openWeb()
+# o.writeSetUp()
+# o.writeTearDown()
 
