@@ -7,7 +7,7 @@ import xlrd
 from copy import deepcopy
 
 
-excel_path = 'D:\\code\\SafetyappEducate\\WebConLibr.xlsx'
+excel_path = 'D:\\code\\WebConLibr.xlsx'
 dict = {}
 
 
@@ -30,6 +30,7 @@ def idCon(text):
 def xpathCon(text):
     data = xlrd.open_workbook(excel_path)
     table = data.sheets()[2]
+    # print(table)
     rows = table.nrows
     cols = table.ncols
     for i in range(0, rows):
@@ -114,4 +115,4 @@ def fejie(string):
 
 
 
-# print(newSheet())
+# print(xpathCon('workbench'))

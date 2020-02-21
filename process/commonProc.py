@@ -26,7 +26,7 @@ class commonProc(object):
 
 # 登录页toast捕捉
     def findToast(self,driver,message):
-        time.sleep(1)
+        time.sleep(2)
         ele = driver.find_element_by_class_name("el-message__content").text
         # me=message.decode("utf-8")
         if ele == message:
@@ -161,6 +161,25 @@ class commonProc(object):
         driver.get_screenshot_as_file('{}/{}.png'.format(os.path.abspath(screenpath), current_time + img_name))
         png = "../save_img" + "/" + current_time + img_name + ".png"
         print("<img src='" + png + "' width=1200 height=600 />")
+
+
+    def waitAmoment(self):
+        time.sleep(3)
+
+
+    #当点击打开新的页面时，需要切换页柄到当前页面，比如只有两页的情况下
+    def tapWeb(self,driver):
+        windows = driver.window_handles
+        driver.switch_to.window(windows[-1])
+
+    # 等待元素可见
+    def waitElemByXpath(self,driver,xpath):
+        WebDriverWait(driver, 5).until(EC.visibility_of_element_located((By.XPATH, xpath)))
+
+    #等待元素并点击
+    def waitAndClickByXpath(self,driver,xpath):
+        WebDriverWait(driver, 5).until(EC.element_to_be_clickable((By.XPATH, xpath))).click()
+
 
 
 
