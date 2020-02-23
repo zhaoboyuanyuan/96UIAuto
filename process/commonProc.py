@@ -170,6 +170,7 @@ class commonProc(object):
     #当点击打开新的页面时，需要切换页柄到当前页面，比如只有两页的情况下
     def tapWeb(self,driver):
         windows = driver.window_handles
+        # print(windows)
         driver.switch_to.window(windows[-1])
 
     # 等待元素可见

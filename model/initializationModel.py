@@ -14,17 +14,25 @@ class initializationModel(object):
 
     @property
     def pname(self):
-        return self.pname
+        return self._pname
 
     @pname.setter
     def pname(self, pname):
-        self.pname = pname
+        self._pname = pname
 
     @property
     def sname(self):
-        return self.sname
+        return self._sname
 
     @sname.setter
     def sname(self, sname):
-        self.sname = sname
+        self._sname = sname
+
+    @property
+    def itext(self):
+        return self._itext
+
+    @itext.setter
+    def itext(self, itext):
+        self._itext = itext
 
