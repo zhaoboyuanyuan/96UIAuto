@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18426c31-c9e5-4408-b7dd-81fe8b77e0fc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/WeChatSmartHome.iml" afterPath="$PROJECT_DIR$/.idea/WeChatSmartHome.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/initializationModel.py" afterPath="$PROJECT_DIR$/model/initializationModel.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/process/commonProc.py" afterPath="$PROJECT_DIR$/process/commonProc.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/process/initializationProc.py" afterPath="$PROJECT_DIR$/process/initializationProc.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testcase/geckodriver.log" afterPath="$PROJECT_DIR$/testcase/geckodriver.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testcase/initializationTest.py" afterPath="$PROJECT_DIR$/testcase/initializationTest.py" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -90,7 +83,7 @@
     <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittest_sceneTest_testSceneShow.coverage" NAME="Unittest sceneTest.testSceneShow Coverage Results" MODIFIED="1530758294846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/SafetyappEducate$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1578363232642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/process" />
     <SUITE FILE_PATH="coverage/SafetyappEducate$Unittest_courseCommentTest_testAllDeleteCancel.coverage" NAME="Unittest courseCommentTest.testAllDeleteCancel Coverage Results" MODIFIED="1577434018716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/96UIAuto$Unittests_in_initializationTest.coverage" NAME="Unittests in initializationTest Coverage Results" MODIFIED="1582385960503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAuto$Unittests_in_initializationTest.coverage" NAME="Unittests in initializationTest Coverage Results" MODIFIED="1582505613599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/SafetyappEducate$excel.coverage" NAME="excel Coverage Results" MODIFIED="1581928413177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
     <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittest_mineTest_testGateWayMessage.coverage" NAME="Unittest mineTest.testGateWayMessage Coverage Results" MODIFIED="1530773798483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/WeChatSmartHome$all_tests.coverage" NAME="all_tests Coverage Results" MODIFIED="1550558388683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -132,7 +125,7 @@
     <SUITE FILE_PATH="coverage/WeChatSmartHome$loginTest.coverage" NAME="loginTest Coverage Results" MODIFIED="1530610110312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/SafetyappEducate$openWeb.coverage" NAME="openWeb Coverage Results" MODIFIED="1577352077126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
     <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittests_in_houseKeeperTest.coverage" NAME="Unittests in houseKeeperTest Coverage Results" MODIFIED="1530778658586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/96UIAuto$Unittest_initializationTest_testCheckCollEmpty.coverage" NAME="Unittest initializationTest.testCheckCollEmpty Coverage Results" MODIFIED="1582385891117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAuto$Unittest_initializationTest_testCheckCollEmpty.coverage" NAME="Unittest initializationTest.testCheckCollEmpty Coverage Results" MODIFIED="1582507074693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/SafetyappEducate$Unittest_courseCommentTest_testEndtime.coverage" NAME="Unittest courseCommentTest.testEndtime Coverage Results" MODIFIED="1578016657873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/96UIAuto$Unittest_initializationTest_testCheckCollMath.coverage" NAME="Unittest initializationTest.testCheckCollMath Coverage Results" MODIFIED="1582375597159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittests_in_sceneTest.coverage" NAME="Unittests in sceneTest Coverage Results" MODIFIED="1530757577011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
@@ -181,8 +174,8 @@
       <file leaf-file-name="initializationTest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testcase/initializationTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="49" column="19" lean-forward="false" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+            <state relative-caret-position="178">
+              <caret line="43" column="20" lean-forward="true" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
               <folding>
                 <element signature="e#70#85#0" expanded="true" />
               </folding>
@@ -203,9 +196,11 @@
       <file leaf-file-name="initializationProc.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/process/initializationProc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-              <folding />
+            <state relative-caret-position="150">
+              <caret line="112" column="21" lean-forward="true" selection-start-line="112" selection-start-column="21" selection-end-line="112" selection-end-column="21" />
+              <folding>
+                <element signature="e#245#258#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -328,6 +323,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -412,7 +408,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -445,7 +440,7 @@
       <recent name="D:\code\WeChatSmartHome" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in initializationTest">
+  <component name="RunManager" selected="Python tests.Unittest initializationTest.testCheckCollEmpty">
     <configuration default="false" name="Unittest initializationTest.testCheckNotMath" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -808,8 +803,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in initializationTest" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest initializationTest.testCheckCollEmpty" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest initializationTest.testCheckCollEmpty" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in initializationTest" />
         <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest initializationTest.testCollateralForm" />
         <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest initializationTest.testCheckCollMath" />
         <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest initializationTest.testCheckNotMath" />
@@ -848,34 +843,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittest_initializationTest_testCheckCollEmpty - 2020.02.22 at 20h 41m 54s.xml">
+    <history-entry file="Unittest_initializationTest_testCheckCollEmpty - 2020.02.24 at 08h 56m 56s.xml">
       <configuration name="Unittest initializationTest.testCheckCollEmpty" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_initializationTest_testCheckCollEmpty - 2020.02.22 at 20h 45m 35s.xml">
+    <history-entry file="Unittest_initializationTest_testCheckCollEmpty - 2020.02.24 at 08h 58m 12s.xml">
       <configuration name="Unittest initializationTest.testCheckCollEmpty" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_initializationTest_testCheckCollEmpty - 2020.02.22 at 23h 35m 25s.xml">
+    <history-entry file="Unittest_initializationTest_testCheckCollEmpty - 2020.02.24 at 09h 00m 08s.xml">
       <configuration name="Unittest initializationTest.testCheckCollEmpty" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_initializationTest_testCheckCollEmpty - 2020.02.22 at 23h 37m 27s.xml">
+    <history-entry file="Unittest_initializationTest_testCheckCollEmpty - 2020.02.24 at 09h 01m 01s.xml">
       <configuration name="Unittest initializationTest.testCheckCollEmpty" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_initializationTest_testCheckCollEmpty - 2020.02.22 at 23h 39m 07s.xml">
+    <history-entry file="Unittest_initializationTest_testCheckCollEmpty - 2020.02.24 at 09h 04m 56s.xml">
       <configuration name="Unittest initializationTest.testCheckCollEmpty" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_initializationTest_testCheckCollMath - 2020.02.22 at 20h 47m 32s.xml">
-      <configuration name="Unittest initializationTest.testCheckCollMath" configurationId="tests" />
+    <history-entry file="Unittest_initializationTest_testCheckCollEmpty - 2020.02.24 at 09h 12m 31s.xml">
+      <configuration name="Unittest initializationTest.testCheckCollEmpty" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_initializationTest_testCollateralForm - 2020.02.22 at 20h 59m 49s.xml">
-      <configuration name="Unittest initializationTest.testCollateralForm" configurationId="tests" />
+    <history-entry file="Unittest_initializationTest_testCheckCollEmpty - 2020.02.24 at 09h 17m 36s.xml">
+      <configuration name="Unittest initializationTest.testCheckCollEmpty" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_initializationTest - 2020.02.22 at 20h 55m 07s.xml">
-      <configuration name="Unittests in initializationTest" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_initializationTest - 2020.02.22 at 23h 33m 36s.xml">
-      <configuration name="Unittests in initializationTest" configurationId="tests" />
+    <history-entry file="Unittest_initializationTest_testCheckCollEmpty - 2020.02.24 at 09h 19m 59s.xml">
+      <configuration name="Unittest initializationTest.testCheckCollEmpty" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_initializationTest - 2020.02.22 at 23h 47m 47s.xml">
+      <configuration name="Unittests in initializationTest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_initializationTest - 2020.02.24 at 08h 55m 41s.xml">
       <configuration name="Unittests in initializationTest" configurationId="tests" />
     </history-entry>
   </component>
@@ -889,27 +884,27 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1378" height="744" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18797565" sideWeight="0.48784193" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19101979" sideWeight="0.48784193" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.321047" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4214876" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.49392098" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16559829" sideWeight="0.51215804" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3995633" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4214876" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3995633" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1173,14 +1168,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/initializationModel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/excel.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="616">
@@ -1196,10 +1183,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/model/initializationModel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/testcase/initializationTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="49" column="19" lean-forward="false" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+        <state relative-caret-position="178">
+          <caret line="43" column="20" lean-forward="true" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
           <folding>
             <element signature="e#70#85#0" expanded="true" />
           </folding>
@@ -1208,9 +1203,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/process/initializationProc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding />
+        <state relative-caret-position="150">
+          <caret line="112" column="21" lean-forward="true" selection-start-line="112" selection-start-column="21" selection-end-line="112" selection-end-column="21" />
+          <folding>
+            <element signature="e#245#258#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
