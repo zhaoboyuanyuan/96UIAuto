@@ -33,11 +33,18 @@ class webdr(object):
 
 
     #输入事件封装
-    def enterById(self,driver,id,content):
+    def uploadById(self,driver,id,content):
         self.findId(driver, id).send_keys(content)
 
+    def enterById(self,driver,id,content):
+        a=self.findId(driver, id)
+        a.clear()
+        a.send_keys(content)
+
     def enterByXpath(self,driver,xpath,content):
-        self.findXpath(driver,xpath).send_keys(content)
+        a=self.findXpath(driver, xpath)
+        a.clear()
+        a.send_keys(content)
 
     def enterByName(self,driver,name,content):
         self.findName(driver,name).send_keys(content)
@@ -50,6 +57,10 @@ class webdr(object):
 
     def enterByCss(self,driver,css_selector,content):
         self.findCss(driver,css_selector).send_keys(content)
+
+    def clearByXpath(self,driver,xpath):
+        a = self.findXpath(driver, xpath)
+        a.clear()
 
     #鼠标事件
 
@@ -96,6 +107,10 @@ class webdr(object):
 
     def aboveByClassname(self,driver,classname):
         above=self.findClassName(driver,classname)
+        ActionChains(driver).move_to_element(above).perform()
+
+    def aboveByCss(self,driver,css):
+        above=self.findCss(driver,css)
         ActionChains(driver).move_to_element(above).perform()
 
 

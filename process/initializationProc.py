@@ -7,7 +7,7 @@
 # 4、切回管理员，测试帐号赋值测试企业，（编辑测试帐号）--用户扩展信息
 
 #优化点：1、主表太长，与附表一起编辑时，附表页面会卡住不动，单独添加附表时则不会；
-#       2、主表一起编辑时，点击添加——周边环境信息，周边信息定位不到，单独添加附表时则不会；
+#
 import random
 import time
 
@@ -20,6 +20,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from model.initializationModel import initializationModel
 from process.baseProc import baseProc
 from process.commonProc import commonProc
+from process.initialBaseProc import initialBaseProc
 from public import data
 from public import excel
 from util.webdr import webdr
@@ -28,6 +29,8 @@ com=commonProc()
 wd=webdr()
 im=initializationModel()
 ex=excel
+inba=initialBaseProc()
+
 
 class initializationProc(baseProc):
 
@@ -64,14 +67,24 @@ class initializationProc(baseProc):
         elif num==13:
             self.distanceMath(driver)
         elif num==14: #进入企业基本信息表
-            driver.get('https://www.51safety.com.cn/space-taicangxintaijiujin1/app/!/information/QiYeXinXi5')
+            # driver.get('https://www.51safety.com.cn/space-taicangxintaijiujin1/app/!/information/QiYeXinXi5')
+            driver.get('https://www.51safety.com.cn/space-taixingjinyanhuaxuea/app/!/information/QiYeXinXi5')
             time.sleep(5)
+        elif num==15:
+            inba.changeMaster(driver)
+        elif num==16:
+            inba.intoOrg(driver)
+        elif num==17:
+            inba.teInfo(driver)
+        elif num == 18:
+            self.foreData(driver)
 
 
-
+    #测试帐号托管
     def account(self,driver):
-        self.tabNewpage(driver,'https://www.51safety.com.cn/paas/index')
-        wd.clickByXpath(driver,ex.xpathCon('organization'))
+        # self.tabNewpage(driver,'https://www.51safety.com.cn/paas/index')
+        # wd.clickByXpath(driver,ex.xpathCon('organization'))
+        self.tabNewpage(driver,'https://www.51safety.com.cn/enterprise/orgManage')
         com.waitAmoment()
         if com.findItem(driver,'控制台')==False:
             com.messageShow('未进入控制台!')
@@ -110,7 +123,7 @@ class initializationProc(baseProc):
         com.tapWeb(driver)
         wd.clickByXpath(driver,ex.xpathCon('setInf'))
         wd.aboveByXpath(driver,ex.xpathCon('accountChange'))
-        time.sleep(1)
+        com.waitAmoment()
         wd.clickByXpath(driver,ex.xpathCon('testAc'))
         com.waitAmoment()
 
@@ -141,15 +154,18 @@ class initializationProc(baseProc):
 
     #点击添加进入表格
     def intoappInformation(self,driver):
-        driver.get('https://www.51safety.com.cn/space-taicangxintaijiujin1/app/!/information/QiYeXinXi5')
+        # driver.get('https://www.51safety.com.cn/space-taicangxintaijiujin1/app/!/information/QiYeXinXi5')
+        driver.get('https://www.51safety.com.cn/space-taixingjinyanhuaxuea/app/!/information/QiYeXinXi5')
         time.sleep(5)
-        com.waitAndClickByXpath(driver, ex.xpathCon('addButton'))
+        wd.clickByXpath(driver, ex.xpathCon('addButton'))
         com.waitAmoment()
 
     #点击上传
     def upload(self,driver):
         wd.clickByXpath(driver,ex.xpathCon('upload'))
         k1 = pykeyboard.PyKeyboard()
+        k1.tap_key(k1.shift_key)
+        time.sleep(2)
         k1.type_string(r'D:\code\upload_file.txt')
         time.sleep(2)
         k1.tap_key(k1.space_key)
@@ -187,8 +203,9 @@ class initializationProc(baseProc):
     def keyBoard(self):
         k1=pykeyboard.PyKeyboard()
         k1.tap_key(k1.down_key)
+        time.sleep(1)
         k1.tap_key(k1.enter_key)
-        time.sleep(2)
+        time.sleep(1)
 
     # 点击更多，编辑进入测试编辑页
     def moreEdit(self,driver):
@@ -203,8 +220,11 @@ class initializationProc(baseProc):
     def focusClick(self):
         m = PyMouse()
         x, y = m.screen_size()
-        m.click(x - 100, y - 550, 1, 1)
+        # print(x,y)
+        # m.click(x - 100, y - 550, 1, 1)
+        m.click(x - 100, y - 850, 1, 1)
         com.waitAmoment()
+
 
         # 填写表格
     def enterForm(self, driver,pname):
@@ -313,6 +333,7 @@ class initializationProc(baseProc):
         # 点击确定
         com.waitAndClickByXpath(driver,ex.xpathCon('sureButton'))
         time.sleep(10)
+
 
     #滑动之后的填表
     def scrollThen(self,driver):
@@ -423,7 +444,8 @@ class initializationProc(baseProc):
         # 添加-周围信息
         wd.aboveByXpath(driver, ex.xpathCon('addOne'))
         time.sleep(2)
-        self.focusClick()
+        # self.focusClick()
+        wd.clickByXpath(driver, '/html/body/ul/li')
 
     #填入为空时，点击
     def clickEle(self,driver):
@@ -445,28 +467,44 @@ class initializationProc(baseProc):
         wd.enterByXpath(driver,ex.xpathCon('distance'),'中国')
         com.clickOnText(driver,'距离（m）')
 
-    def te(self,driver):
-        self.intoCenter(driver)
-        self.changeTest(driver)
-        # driver.get('https://www.51safety.com.cn/space-taicangxintaijiujin1/app/!/information/QiYeXinXi5')
-        # com.waitAmoment()
-        #
-        # self.moreEdit(driver)
-        # # 点击添加——周边环境信息
-        # wd.aboveByXpath(driver,'//*[@id="J_body"]/section/main/div[1]/div[1]/div[2]/div')
-        # time.sleep(2)
-        # com.waitAndClickByXpath(driver, '/html/body/ul[2]/li')
-        # com.waitAmoment()
-        #
-        # self.enterForm(driver)
-        # com.clickOnText(driver,'确定')
-        # time.sleep(10)
-        # com.clickOnText(driver,self.name1)
-        # wd.clickByXpath(driver,'//*[contains(text(),'+self.name1+')]')
+    #更改名称为测试企业
+    def foreData(self,driver):
+        # 点击最新的一条
+        wd.clickByXpath(driver,
+                        ex.xpathCon('newCase'))
+        com.waitAmoment()
+        # 点击编辑
+        wd.clickByXpath(driver, ex.xpathCon('editOne'))
+        com.waitAmoment()
+        wd.enterByXpath(driver,
+                        ex.xpathCon('epname'),'测试企业')
+        # 点击确定
+        com.waitAndClickByXpath(driver, ex.xpathCon('sureButton'))
+        time.sleep(10)
 
-        # self.addendum(driver)
-        #
-        # time.sleep(10)
+
+    # def te(self,driver):
+    #     self.intoCenter(driver)
+    #
+    #     self.changeTest(driver)
+    #     driver.get('https://www.51safety.com.cn/space-taixingjinyanhuaxuea/app/!/information/QiYeXinXi5')
+    #     time.sleep(5)
+    #     # 点击最新的一条
+    #     wd.clickByXpath(driver,
+    #                     ex.xpathCon('newCase'))
+    #     com.waitAmoment()
+    #     # 点击编辑
+    #     wd.clickByXpath(driver, ex.xpathCon('editOne'))
+    #     com.waitAmoment()
+    #     # 添加-周围信息
+    #     wd.aboveByXpath(driver, ex.xpathCon('addOne'))
+    #     time.sleep(2)
+    #     # wd.clickByXpath(driver,'/html/body/ul/li')
+    #     css = 'u1 li[title="周边环境信息"]'
+    #     wd.clickByCss(driver, css)
+    #     time.sleep(10)
+
+
 
 
     #Pass平台--组织架构--测试帐号托管
@@ -475,13 +513,13 @@ class initializationProc(baseProc):
 
     #填写主表
     def fillForm(self,driver):
-        im.pname='无忧研发测试组' + str(self.getFourRandomNum())
+        im.pname='无忧产品' + str(self.getFourRandomNum())
         im.message='创建企业表失败'
-        self.basePr(driver,[0,2,3,4])
+        self.basePr(driver,[0,2,3,18])
 
     #增加附表
     def collateralForm(self,driver):
-        im.pname='无忧研发测试组' + str(self.getFourRandomNum())
+        im.pname='无忧产品' + str(self.getFourRandomNum())
         im.sname=self.getFourRandomNum()
         im.message='创建附表失败'
         self.basePr(driver,[0,2,3,7,5,6])
@@ -509,6 +547,14 @@ class initializationProc(baseProc):
         im.itext = '此处为数字'
         im.message = '未弹出提示此处为数字'
         self.basePr(driver,[0,2,14,7,13,10])
+
+    #切回管理员，测试帐号赋值测试企业，（编辑测试帐号）--用户扩展信息
+    def editTestAccount(self,driver):
+        im.itext = '应用保存成功'
+        im.message = '未弹出提示应用保存成功'
+        self.basePr(driver,[0,15,16,17,10])
+
+
 
 
 

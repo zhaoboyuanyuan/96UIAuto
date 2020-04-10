@@ -24,6 +24,8 @@ class openWeb():
         self.driver.maximize_window()
         self.login()
 
+
+
     def writeTearDown(self):
         self.driver.quit()
         # assertEqual([], self.verificationErrors)

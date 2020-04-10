@@ -20,10 +20,10 @@ import HTMLTestRunner
 
 # 将用例组建成数组
 alltestnames = [
-    # 'loginTest.loginTest',
-    # 'homePageTest.homePageTest',
     # 'sutie.sogou.test_sogou.Sogou',  # 注意这个用例是二级目录下的
-    'courseCommTest.courseCommTest'
+    #'courseCommTest.courseCommTest'
+    'initializationTest.initializationTest',
+    'riskzoneTest.riskzoneTest'
 
 ]
 suite = unittest.TestSuite()
@@ -59,7 +59,7 @@ if __name__ == '__main__':
 
     #输出美化后的html报告
     log_path = os.path.join(os.getcwd(),'result')
-    BeautifulReport(suite).report(filename='result', description='安全教育系统测试', log_path=log_path)
+    BeautifulReport(suite).report(filename='result', description='96号容器测试', log_path=log_path)
 
 
 

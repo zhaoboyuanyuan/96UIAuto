@@ -41,10 +41,4 @@ class execite(unittest.TestCase):
         print("<img src='" + png + "' width=1000 height=500 />")
 
 
-if __name__ == '__main__':
-    # test_suite = unittest.defaultTestLoader.discover('../process', pattern='test*.py')
-    test_suite = unittest.TestSuite()
-    test_suite.addTest(execite('test_is_none'))
 
-    BeautifulReport(test_suite).report(filename='测试报告', description='测试deafult报告',
-                                       log_path='D:\\code\\SafetyappEducate\\result')

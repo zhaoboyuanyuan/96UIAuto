@@ -6,27 +6,15 @@ from email import encoders
 from email.header import Header
 from email.mime.base import MIMEBase
 
+from public import mailText
+
+
 class send_email():
 
     #邮件内容为text
     def getText(self):
         #邮件发送内容
-        text = '''安全教育系统测试脚本如下:
-                            1、课程评论管理”页面>选择一条评价，点击“删除”按钮，点击“确定”按钮，成功删除
-                            2、课程评论管理”页面>选择一条评价，点击“删除”按钮，点击“取消”按钮，取消删除
-                            3、课程评论管理”页面>选择一条评价，点击“删除”按钮，点击“关闭”按钮，取消删除
-                            4、课程评论管理”页面>选中多个评价信息>点击批量“删除”按钮>点击“取消”取消删除
-                            5、课程评论管理”页面>选中多个评价信息>点击批量“删除”按钮>点击“关闭”取消删除
-                            6、课程评论管理”页面>选中多个评价信息>点击批量“删除”按钮>点击“确定”按钮，成功删除
-                            7、课程评论管理”页面>设置“评分”、“开始时间”和“结束时间”组合筛选，点击“确定”按钮，输出正确的筛选信息
-                            8、课程评论管理”页面>设置“评分”、“开始时间”和“结束时间”组合筛选，点击“确定”按钮，输出正确的筛选信息,点击“重置”按钮，取消筛选，显示全部信息
-                            9、课程评论管理”页面>设置“结束时间”，点击“确定”按钮，输出筛选结果>点击“X”按钮清空设置的结束时间
-                            10、课程评论管理”页面>设置“结束时间”，点击“确定”按钮，输出筛选结果>点击“X”按钮清空设置的结束时间，点击“确定”按钮，取消筛选，显示所有信息
-                            11、课程评论管理”页面>设置“结束时间”，点击“确定”按钮，输出小于等于结束时间的评论信息
-                            12、课程评论管理”页面>设置“开始时间”，点击“确定”按钮，输出筛选结果>点击“X”按钮清空设置的开始时间
-                            13、课程评论管理”页面>设置“开始时间”，点击“确定”按钮，输出筛选结果>点击“X”按钮清空设置的开始时间，点击“确定”按钮，取消筛选，显示所有信息
-                            14、课程评论管理”页面>设置“开始时间”，点击“确定”按钮，输出大于等于开始时间的评论信息
-                         '''
+        text = mailText.mailText()
         return MIMEText(text, 'plain', 'utf-8')
 
 
@@ -46,7 +34,8 @@ class send_email():
         # password = "zhaoboyuan54321"
 
         user = "1309817607@qq.com "
-        password = "fesnswauckbnjjgc"
+        # password = "fesnswauckbnjjgc"
+        password = "wmlqmrikrkkwfjfd"
 
 
         # 发送邮箱
@@ -61,7 +50,7 @@ class send_email():
         # receiver.append("furong.wang@wuliangroup.com")
 
         # 发送主题
-        subject = '安全教育系统自动化测试报告'
+        subject = '96号文容器自动化测试报告'
 
         msgRoot = MIMEMultipart()
         # 邮件正文是MIMEText:
@@ -81,7 +70,7 @@ class send_email():
 
     #添加附件
     def fuJian(self):
-        file_new = "D:\\code\\SafetyappEducate\\result\\result.html"
+        file_new = "D:\\code\\96UIAutoC\\result\\result.html"
         # 添加附件就是加上一个MIMEBase，从本地读取一个html邮件:
         with open(file_new, 'rb') as f:
             # 设置附件的MIME和文件名，这里是png类型:
@@ -100,14 +89,14 @@ class send_email():
 
     #邮件内容为html时
     def getHtml(self):
-        file_new = "D:\\code\\SafetyappEducate\\result\\result.html"
+        file_new = "D:\\code\\96UIAutoC\\result\\result.html"
         f = open(file_new, 'rb')
         mail_body = f.read()
         f.close()
         html = MIMEText(mail_body, _subtype='html', _charset='utf-8')
         return html
 #
-# if __name__ == '__main__':
-#     send_email().send()
+if __name__ == '__main__':
+    send_email().send()
 
 

@@ -73,14 +73,14 @@ def readhtml():
     '''
     for file in os.listdir('./result'):
         if file.endswith(".html"):
-            root = 'D:/code/SafetyappEducate/result/'
+            root = 'D:/code/96UIAutoC/result/'
             with open(root+file,'r+',encoding='utf-8') as html:
                 content = html.read()       # 读取html文件内容
                 pics = findimg(content)     # 查找所有内容中的本地图片
                 for pic in pics:
                     # log_path = os.path.join(os.getcwd(), 'result')
                     # if os.path.exists(pic):
-                    picPath='D:/code/SafetyappEducate/save_img/'+pic[12:]
+                    picPath='D:/code/96UIAutoC/save_img/'+pic[12:]
                     # print(picPath)
                     base64code = imgbase64(picPath)     # base64编码图片文件
                     content = content.replace(pic,base64code)   # 替换html文件内容
@@ -90,10 +90,41 @@ def readhtml():
                 html.write(content)                 # 覆写
 
 
+def readhtmly():
+    '''
+    读取当前目录下的所有html文件，并查找本地图片，实现嵌入图片的base64编码
+    :return: 无
+    '''
+    # log_dir = os.getcwd() + '\log\\'
+
+    for file in os.listdir('../result'):
+        if file.endswith(".html"):
+            a = os.getcwd()[:-6]
+            root = a+'\\result\\'
+            with open(root+file,'r+',encoding='utf-8') as html:
+                content = html.read()       # 读取html文件内容
+                pics = findimg(content)     # 查找所有内容中的本地图片
+                for pic in pics:
+                    # log_path = os.path.join(os.getcwd(), 'result')
+                    # if os.path.exists(pic):
+                    picPath=a+'\save_img\\'+pic[12:]
+                    # print(picPath)
+                    base64code = imgbase64(picPath)     # base64编码图片文件
+                    content = content.replace(pic,base64code)   # 替换html文件内容
+
+                content = findcomment(content)      # 去除html文件中的注释
+                html.seek(0)
+                html.write(content)                 # 覆写
+                print(a)
+
+
 
 
 # 打包生成可执行程序的命令
 # pyinstaller --noupx -F -w --icon=mylogo.ico imgbase64.py
 # if __name__ == '__main__':
 #     readhtml()
+
+# readhtmly()
+
 
