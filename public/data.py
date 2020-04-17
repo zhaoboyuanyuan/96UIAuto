@@ -16,3 +16,5 @@ userName='admin_txjy'
 password='111111'
 #主url
 murl='taixingjinyanhuaxuea'
+
+#需手动新建测试账号托管
