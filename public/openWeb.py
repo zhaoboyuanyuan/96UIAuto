@@ -7,17 +7,19 @@ from selenium import webdriver
 
 from process.commonProc import commonProc
 from public import data
+from public import excel
 from util.webdr import webdr
 
 wd = webdr()
 com = commonProc()
+ex=excel
 
 
 class openWeb():
     def writeSetUp(self):
         self.driver = webdriver.Firefox()
         self.driver.implicitly_wait(30)
-        self.base_url = data.urlFirst
+        self.base_url = ex.dataCon('urlFirst')
         self.verificationErrors = []
         self.accept_next_alert = True
         self.driver.get(self.base_url)
@@ -38,9 +40,9 @@ class openWeb():
         # wd.clickById(self.driver,'login')
         self.driver.find_element_by_id('login').click()
         self.driver.find_element_by_id('userName').clear()
-        self.driver.find_element_by_id('userName').send_keys(data.userName)
+        self.driver.find_element_by_id('userName').send_keys(ex.dataCon('userName'))
         self.driver.find_element_by_id('password').clear()
-        self.driver.find_element_by_id('password').send_keys(data.password)
+        self.driver.find_element_by_id('password').send_keys(int(ex.dataCon('password')))
         self.driver.find_element_by_id('loginBtn').click()
         com.waitAmoment()
 
@@ -51,9 +53,9 @@ class openWeb():
         while 1:
             self.driver.find_element_by_id('login').click()
             self.driver.find_element_by_id('userName').clear()
-            self.driver.find_element_by_id('userName').send_keys(data.userName)
+            self.driver.find_element_by_id('userName').send_keys(ex.dataCon('userName'))
             self.driver.find_element_by_id('password').clear()
-            self.driver.find_element_by_id('password').send_keys(data.password)
+            self.driver.find_element_by_id('password').send_keys(int(ex.dataCon('password')))
             self.driver.find_element_by_id('loginBtn').click()
             if com.findToast(self.driver, '登录成功') == True:
                 break
@@ -68,7 +70,7 @@ class openWeb():
 
         com.waitAmoment()
 
-
+#
 # o = openWeb()
 # o.writeSetUp()
 # o.writeTearDown()

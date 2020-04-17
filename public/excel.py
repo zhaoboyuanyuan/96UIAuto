@@ -54,6 +54,19 @@ def classNameCon(text):
             dict[title] = value
     return dict[text]
 
+# 网站数据
+def dataCon(text):
+    data = xlrd.open_workbook(excel_path)
+    table = data.sheet_by_name('webdata')
+    rows = table.nrows
+    cols = table.ncols
+    for i in range(0, rows):
+        for j in range(cols):
+            title = table.cell_value(i, 0)
+            value = table.cell_value(i, 1)
+            dict[title] = value
+    return dict[text]
+
 
 # 处理testcase,获取数据与验证点
 def case(caseId):
@@ -115,4 +128,4 @@ def fejie(string):
 
 
 
-# print(xpathCon('fengxiandi'))
+# print(dataCon('password'))

@@ -138,12 +138,13 @@ class riskzoneProc(baseProc):
 
     #进入页面
     def intopage(self,driver,num):
+        url=ex.dataCon('murl')
         if num==1: #进入风险区域划分页面
-            driver.get('https://www.51safety.com.cn/space-' + data.murl + '/app/!/information/QuYuChangSuoDanYuanX')
+            driver.get('https://www.51safety.com.cn/space-' + url + '/app/!/information/QuYuChangSuoDanYuanX')
         elif num==2:  #进入区域固有风险评估
-            driver.get('https://www.51safety.com.cn/space-' + data.murl + '/app/!/information/QuYuGuYouFengXianPin')
+            driver.get('https://www.51safety.com.cn/space-' + url + '/app/!/information/QuYuGuYouFengXianPin')
         elif num==3:  #进入区域控制风险评估
-            driver.get('https://www.51safety.com.cn/space-' + data.murl + '/app/!/information/GuYouFengXianPingGu')
+            driver.get('https://www.51safety.com.cn/space-' + url + '/app/!/information/GuYouFengXianPingGu')
         elif num==4:  #进入企业风险四色图
             driver.get('https://www.51safety.com.cn/safetyapp/entRisk/view')
         if not com.waitInvisib(driver,'xpath',ex.xpathCon('setInf')):

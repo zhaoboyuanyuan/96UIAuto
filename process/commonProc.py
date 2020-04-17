@@ -33,7 +33,7 @@ class commonProc(object):
 
 # 登录页toast捕捉
     def findToast(self,driver,message):
-        time.sleep(3)
+        time.sleep(2)
         ele = driver.find_element_by_class_name("el-message__content").text
         # me=message.decode("utf-8")
         if ele == message:
@@ -317,9 +317,9 @@ class commonProc(object):
         while 1:
             driver.find_element_by_id('login').click()
             driver.find_element_by_id('userName').clear()
-            driver.find_element_by_id('userName').send_keys(data.userName)
+            driver.find_element_by_id('userName').send_keys(ex.dataCon('userName'))
             driver.find_element_by_id('password').clear()
-            driver.find_element_by_id('password').send_keys(data.password)
+            driver.find_element_by_id('password').send_keys(int(ex.dataCon('password')))
             driver.find_element_by_id('loginBtn').click()
             if self.findToast(driver, '登录成功') == True:
                 break
