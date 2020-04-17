@@ -40,7 +40,7 @@ class initializationProc(baseProc):
         elif num == 1: # 测试账号托管
             self.account(driver)
         elif num == 2:
-            self.changeTest(driver)
+            com.changeTest(driver)
         elif num == 3:
             self.enterForm(driver,im.pname)
         elif num == 4:
@@ -78,6 +78,14 @@ class initializationProc(baseProc):
             inba.teInfo(driver)
         elif num == 18:
             self.foreData(driver)
+        elif num == 19:
+            self.operat(driver,im.pname)
+        elif num == 20:
+            self.intoappIn(driver)
+        elif num == 21: #电话填入为空时，点击
+            self.clicknum(driver)
+        elif num == 22: #电话填入为数字222时，点击
+            self.clicknumMatch(driver)
 
 
     #测试帐号托管
@@ -118,14 +126,6 @@ class initializationProc(baseProc):
     def back(self,driver):
         wd.clickByXpath(driver,excel.xpathCon('back'))
 
-    #切换为测试账号
-    def changeTest(self,driver):
-        com.tapWeb(driver)
-        wd.clickByXpath(driver,ex.xpathCon('setInf'))
-        wd.aboveByXpath(driver,ex.xpathCon('accountChange'))
-        com.waitAmoment()
-        wd.clickByXpath(driver,ex.xpathCon('testAc'))
-        com.waitAmoment()
 
     def scrollToBm(self,driver):
         # com.tapWeb(driver)
@@ -157,7 +157,16 @@ class initializationProc(baseProc):
         # driver.get('https://www.51safety.com.cn/space-taicangxintaijiujin1/app/!/information/QiYeXinXi5')
         driver.get('https://www.51safety.com.cn/space-taixingjinyanhuaxuea/app/!/information/QiYeXinXi5')
         time.sleep(5)
-        wd.clickByXpath(driver, ex.xpathCon('addButton'))
+        com.forclick(driver, ex.xpathCon('addButton'))
+        com.waitAmoment()
+
+    #点击添加进入表格
+    def intoappIn(self,driver):
+        # driver.get('https://www.51safety.com.cn/space-taicangxintaijiujin1/app/!/information/QiYeXinXi5')
+        driver.get('https://www.51safety.com.cn/space-taixingjinyanhuaxuea/app/!/information/QiYeXinXi5')
+        time.sleep(5)
+        self.delete(driver)
+        com.forclick(driver, ex.xpathCon('addButton'))
         com.waitAmoment()
 
     #点击上传
@@ -228,11 +237,11 @@ class initializationProc(baseProc):
 
         # 填写表格
     def enterForm(self, driver,pname):
-        self.intoappInformation(driver)
         # 企业名称
         wd.enterByXpath(driver,
                         ex.xpathCon('epname'),
                         pname)
+
         # 企业代码
         wd.enterByXpath(driver,
                         ex.xpathCon('epcode'),
@@ -333,6 +342,7 @@ class initializationProc(baseProc):
         # 点击确定
         com.waitAndClickByXpath(driver,ex.xpathCon('sureButton'))
         time.sleep(10)
+
 
 
     #滑动之后的填表
@@ -452,6 +462,16 @@ class initializationProc(baseProc):
         wd.clickByXpath(driver,ex.xpathCon('epname'))
         com.clickOnText(driver,'企业名称')
 
+    #电话填入为空时，点击
+    def clicknum(self,driver):
+        wd.clickByXpath(driver,ex.xpathCon('lianxinum'))
+        com.clickOnText(driver,'联系电话')
+
+    #电话填入为数字222时，点击
+    def clicknumMatch(self,driver):
+        wd.enterByXpath(driver,ex.xpathCon('lianxinum'),'222')
+        com.clickOnText(driver,'联系电话')
+
     #员工总数(人)填入文字
     def clickMath(self,driver):
         wd.enterByXpath(driver,ex.xpathCon('empnum'),'中国')
@@ -480,7 +500,28 @@ class initializationProc(baseProc):
                         ex.xpathCon('epname'),'测试企业')
         # 点击确定
         com.waitAndClickByXpath(driver, ex.xpathCon('sureButton'))
-        time.sleep(10)
+        com.waitSuMom(driver)
+
+    #删除信息
+    def delete(self,driver):
+        try:
+            #点击第一项
+            wd.clickByXpath(driver,
+                            '/html/body/div[1]/div/section/main/div/section/main/div/div/div[2]/div/div/div[1]/div[4]/div[2]/table/tbody/tr[1]/td[1]/div/label/span/span')
+            time.sleep(2)
+            com.clickOnText(driver,'删除')
+            wd.clickByXpath(driver,ex.xpathCon('sureButton1'))
+            com.waitAmoment()
+        except:
+            pass
+
+    def operat(self,driver,pname):
+        driver.get('https://www.51safety.com.cn/space-taixingjinyanhuaxuea/app/!/information/QiYeXinXi5')
+        time.sleep(5)
+        self.delete(driver)
+        com.forclick(driver, ex.xpathCon('addButton'))
+        com.waitAmoment()
+        self.enterForm(driver, pname)
 
 
     # def te(self,driver):
@@ -505,24 +546,22 @@ class initializationProc(baseProc):
     #     time.sleep(10)
 
 
-
-
     #Pass平台--组织架构--测试帐号托管
     def accountHost(self,driver):
         self.basePr(driver,[0,1])
 
     #填写主表
     def fillForm(self,driver):
-        im.pname='无忧产品' + str(self.getFourRandomNum())
+        im.pname='测试企业' + str(self.getFourRandomNum())
         im.message='创建企业表失败'
-        self.basePr(driver,[0,2,3,18])
+        self.basePr(driver,[0,2,20,3,4])
 
     #增加附表
     def collateralForm(self,driver):
-        im.pname='无忧产品' + str(self.getFourRandomNum())
+        im.pname='测试企业'
         im.sname=self.getFourRandomNum()
         im.message='创建附表失败'
-        self.basePr(driver,[0,2,3,7,5,6])
+        self.basePr(driver,[0,2,19,7,5,6])
 
     #主表校验不能为空
     def checkEmpty(self,driver):
@@ -553,6 +592,18 @@ class initializationProc(baseProc):
         im.itext = '应用保存成功'
         im.message = '未弹出提示应用保存成功'
         self.basePr(driver,[0,15,16,17,10])
+
+    # 主表校验联系电话不能为空
+    def checknumEmpty(self, driver):
+        im.itext = '此处不能为空'
+        im.message = '未弹出提示此处不能为空'
+        self.basePr(driver, [0, 2, 8, 21, 10])
+
+    # 主表校验联系电话格式不正确
+    def checknumFormat(self, driver):
+        im.itext = '电话号码格式不正确'
+        im.message = '未弹出提示电话号码格式不正确'
+        self.basePr(driver, [0, 2, 8, 22, 10])
 
 
 

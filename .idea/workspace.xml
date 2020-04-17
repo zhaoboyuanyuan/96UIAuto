@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoTestManager">
+    <enabled-run-configurations>
+      <run-configuration type="tests" name="Unittests in riskzoneTest" />
+    </enabled-run-configurations>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="18426c31-c9e5-4408-b7dd-81fe8b77e0fc" name="Default" comment="" />
+    <list default="true" id="18426c31-c9e5-4408-b7dd-81fe8b77e0fc" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/geckodriver.log" afterPath="$PROJECT_DIR$/geckodriver.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/test_log.log" afterPath="$PROJECT_DIR$/log/test_log.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/process/commonProc.py" afterPath="$PROJECT_DIR$/process/commonProc.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/process/initialBaseProc.py" afterPath="$PROJECT_DIR$/process/initialBaseProc.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/process/initializationProc.py" afterPath="$PROJECT_DIR$/process/initializationProc.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/process/riskzoneBaseProc.py" afterPath="$PROJECT_DIR$/process/riskzoneBaseProc.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/process/riskzoneProc.py" afterPath="$PROJECT_DIR$/process/riskzoneProc.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/excel.py" afterPath="$PROJECT_DIR$/public/excel.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/mailText.py" afterPath="$PROJECT_DIR$/public/mailText.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/send_email.py" afterPath="$PROJECT_DIR$/public/send_email.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result/result.html" afterPath="$PROJECT_DIR$/result/result.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testcase/geckodriver.log" afterPath="$PROJECT_DIR$/testcase/geckodriver.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testcase/initializationTest.py" afterPath="$PROJECT_DIR$/testcase/initializationTest.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testcase/riskzoneTest.py" afterPath="$PROJECT_DIR$/testcase/riskzoneTest.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/webdr.py" afterPath="$PROJECT_DIR$/util/webdr.py" />
+    </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,187 +34,218 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/SafetyappEducate$send_email01.coverage" NAME="send_email01 Coverage Results" MODIFIED="1577337005406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittests_in_mineTest.coverage" NAME="Unittests in mineTest Coverage Results" MODIFIED="1530776817559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/WeChatSmartHome$all_tests.coverage" NAME="all_tests Coverage Results" MODIFIED="1550558388683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/SafetyappEducate$Unittest_demo_testAs01.coverage" NAME="Unittest demo.testAs01 Coverage Results" MODIFIED="1579226223796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
     <SUITE FILE_PATH="coverage/SafetyappEducate$Unittest_courseCommentTest_testDeleteCancel.coverage" NAME="Unittest courseCommentTest.testDeleteCancel Coverage Results" MODIFIED="1578018659554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittests_in_loginTest__5_.coverage" NAME="Unittests in loginTest (5) Coverage Results" MODIFIED="1530608576300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/96UIAutoC$Unittests_in_execite1.coverage" NAME="Unittests in execite1 Coverage Results" MODIFIED="1583917331337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
     <SUITE FILE_PATH="coverage/SafetyappEducate$Unittest_courseCommTest_testbegintime2.coverage" NAME="Unittest courseCommTest.testbegintime2 Coverage Results" MODIFIED="1578618305543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/SafetyappEducate$htmlImg__1_.coverage" NAME="htmlImg (1) Coverage Results" MODIFIED="1578474038059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
     <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testshigumoni.coverage" NAME="Unittest initializationTest.testshigumoni Coverage Results" MODIFIED="1586324211593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testdrawCir.coverage" NAME="Unittest initializationTest.testdrawCir Coverage Results" MODIFIED="1586480942032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_riskzoneTest_testdrawIrreg.coverage" NAME="Unittest riskzoneTest.testdrawIrreg Coverage Results" MODIFIED="1586942965721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/96UIAuto$openWeb.coverage" NAME="openWeb Coverage Results" MODIFIED="1582080903190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
     <SUITE FILE_PATH="coverage/SafetyappEducate$Unittests_in_courseCommTest.coverage" NAME="Unittests in courseCommTest Coverage Results" MODIFIED="1578449926854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/SafetyappEducate$Unittests_in_test.coverage" NAME="Unittests in test Coverage Results" MODIFIED="1578362234580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/process" />
     <SUITE FILE_PATH="coverage/SafetyappEducate$Unittests_in_execite__1_.coverage" NAME="Unittests in execite (1) Coverage Results" MODIFIED="1578377422005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/process" />
     <SUITE FILE_PATH="coverage/SafetyappEducate$Unittest_courseCommTest_testDeleteSuccess.coverage" NAME="Unittest courseCommTest.testDeleteSuccess Coverage Results" MODIFIED="1578386587788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittest_loginTest_testWrongUser__1_.coverage" NAME="Unittest loginTest.testWrongUser (1) Coverage Results" MODIFIED="1530067158567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittest_homePageTest_testDeviceDetail.coverage" NAME="Unittest homePageTest.testDeviceDetail Coverage Results" MODIFIED="1530755420539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/96UIAutoC$riskzoneProc.coverage" NAME="riskzoneProc Coverage Results" MODIFIED="1582876918535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/process" />
     <SUITE FILE_PATH="coverage/96UIAutoC$demou.coverage" NAME="demou Coverage Results" MODIFIED="1586338330213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
     <SUITE FILE_PATH="coverage/96UIAutoC$commonProc.coverage" NAME="commonProc Coverage Results" MODIFIED="1585632393822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/process" />
-    <SUITE FILE_PATH="coverage/WeChatSmartHome$mineProc.coverage" NAME="mineProc Coverage Results" MODIFIED="1530771195521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/process" />
-    <SUITE FILE_PATH="coverage/96UIAutoC$send_email.coverage" NAME="send_email Coverage Results" MODIFIED="1586396845381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_riskzoneTest_testinherent.coverage" NAME="Unittest riskzoneTest.testinherent Coverage Results" MODIFIED="1587088944548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$send_email.coverage" NAME="send_email Coverage Results" MODIFIED="1586507350674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_riskzoneTest_testdowCheck.coverage" NAME="Unittest riskzoneTest.testdowCheck Coverage Results" MODIFIED="1586914763745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_riskzoneTest_testhiguCalValue.coverage" NAME="Unittest riskzoneTest.testhiguCalValue Coverage Results" MODIFIED="1587002755230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/96UIAutoC$riskzoneTest.coverage" NAME="riskzoneTest Coverage Results" MODIFIED="1584514184790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/SafetyappEducate$Unittest_courseCommentTest_testEndtime.coverage" NAME="Unittest courseCommentTest.testEndtime Coverage Results" MODIFIED="1578016657873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittests_in_sceneTest.coverage" NAME="Unittests in sceneTest Coverage Results" MODIFIED="1530757577011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittests_in_Testlogin__1_.coverage" NAME="Unittests in Testlogin (1) Coverage Results" MODIFIED="1530609099501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/WeChatSmartHome$testWeb.coverage" NAME="testWeb Coverage Results" MODIFIED="1530609439992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/WeChatSmartHome$excel.coverage" NAME="excel Coverage Results" MODIFIED="1530691103626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/SafetyappEducate$openWeb.coverage" NAME="openWeb Coverage Results" MODIFIED="1577352077126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/WeChatSmartHome$loginTest__1_.coverage" NAME="loginTest (1) Coverage Results" MODIFIED="1530609215274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testmende.coverage" NAME="Unittest initializationTest.testmende Coverage Results" MODIFIED="1584950280445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testDrawIrreg.coverage" NAME="Unittest initializationTest.testDrawIrreg Coverage Results" MODIFIED="1586480215194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittests_in_riskzoneTest__1_.coverage" NAME="Unittests in riskzoneTest (1) Coverage Results" MODIFIED="1586742381003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_riskzoneTest_testdrawPt.coverage" NAME="Unittest riskzoneTest.testdrawPt Coverage Results" MODIFIED="1586745446230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_riskzoneTest_testmendeCheck.coverage" NAME="Unittest riskzoneTest.testmendeCheck Coverage Results" MODIFIED="1586842287972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$execite1.coverage" NAME="execite1 Coverage Results" MODIFIED="1583917233917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/SafetyappEducate$Unittest_courseCommentTest_testCircleClose.coverage" NAME="Unittest courseCommentTest.testCircleClose Coverage Results" MODIFIED="1578021412513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittest_loginTest_testVeNoneUser.coverage" NAME="Unittest loginTest.testVeNoneUser Coverage Results" MODIFIED="1530683386569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittests_in_loginTest__3_.coverage" NAME="Unittests in loginTest (3) Coverage Results" MODIFIED="1530609403835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$htmlImg.coverage" NAME="htmlImg Coverage Results" MODIFIED="1582611090128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_riskzoneTest_testassessmen.coverage" NAME="Unittest riskzoneTest.testassessmen Coverage Results" MODIFIED="1587022611171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_riskzoneTest_testqbindSqu.coverage" NAME="Unittest riskzoneTest.testqbindSqu Coverage Results" MODIFIED="1586831818011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/SafetyappEducate$Unittest_test_test_case_2__1_.coverage" NAME="Unittest test.test_case_2 (1) Coverage Results" MODIFIED="1578289521084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/process" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testAFillForm.coverage" NAME="Unittest initializationTest.testAFillForm Coverage Results" MODIFIED="1587103240418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testdrawSqu.coverage" NAME="Unittest initializationTest.testdrawSqu Coverage Results" MODIFIED="1586479296075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/SafetyappEducate$Unittest_courseCommTest_testScoreSucc.coverage" NAME="Unittest courseCommTest.testScoreSucc Coverage Results" MODIFIED="1578389663089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/SafetyappEducate$Unittest_test_test_case_2.coverage" NAME="Unittest test.test_case_2 Coverage Results" MODIFIED="1578289574496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/process" />
+    <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittests_in_messageTest.coverage" NAME="Unittests in messageTest Coverage Results" MODIFIED="1530762437685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittest_sceneTest_testSceneShow.coverage" NAME="Unittest sceneTest.testSceneShow Coverage Results" MODIFIED="1530758294846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testassessmen.coverage" NAME="Unittest initializationTest.testassessmen Coverage Results" MODIFIED="1586502582758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testbindCircheck.coverage" NAME="Unittest initializationTest.testbindCircheck Coverage Results" MODIFIED="1586496389831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testdowCheck.coverage" NAME="Unittest initializationTest.testdowCheck Coverage Results" MODIFIED="1586245850195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/SafetyappEducate$Unittest_courseCommentTest_testScoreCanc.coverage" NAME="Unittest courseCommentTest.testScoreCanc Coverage Results" MODIFIED="1577438041250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittests_in_ddd.coverage" NAME="Unittests in ddd Coverage Results" MODIFIED="1530610819799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/SafetyappEducate$Unittest_demo_test02__1_.coverage" NAME="Unittest demo.test02 (1) Coverage Results" MODIFIED="1579225661044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/SafetyappEducate$Unittests_in_execite__2_.coverage" NAME="Unittests in execite (2) Coverage Results" MODIFIED="1578377487909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/process" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testEditTestAccount.coverage" NAME="Unittest initializationTest.testEditTestAccount Coverage Results" MODIFIED="1587019615248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/SafetyappEducate$demo.coverage" NAME="demo Coverage Results" MODIFIED="1579249106315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittest_loginTest_testAVeCodeWrong.coverage" NAME="Unittest loginTest.testAVeCodeWrong Coverage Results" MODIFIED="1530691010765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/SafetyappEducate$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1578363232642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/process" />
+    <SUITE FILE_PATH="coverage/SafetyappEducate$Unittest_exec_test_is_none.coverage" NAME="Unittest exec.test_is_none Coverage Results" MODIFIED="1578365155192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/process" />
+    <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittest_mineTest_testGatewayList.coverage" NAME="Unittest mineTest.testGatewayList Coverage Results" MODIFIED="1530779718780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$execite.coverage" NAME="execite Coverage Results" MODIFIED="1583914804271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittest_loginTest_testVeCodeWrong.coverage" NAME="Unittest loginTest.testVeCodeWrong Coverage Results" MODIFIED="1530683282053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testCollateralForm.coverage" NAME="Unittest initializationTest.testCollateralForm Coverage Results" MODIFIED="1582620064868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittests_in_loginTest__1_.coverage" NAME="Unittests in loginTest (1) Coverage Results" MODIFIED="1530691170165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAuto$Unittest_initializationTest_testCheckForm.coverage" NAME="Unittest initializationTest.testCheckForm Coverage Results" MODIFIED="1582372736428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/SafetyappEducate$Unittest_courseCommentTest_testScoreSucc.coverage" NAME="Unittest courseCommentTest.testScoreSucc Coverage Results" MODIFIED="1578018450176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testdowHua1.coverage" NAME="Unittest initializationTest.testdowHua1 Coverage Results" MODIFIED="1585035096370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_riskzoneTest_testacontrol.coverage" NAME="Unittest riskzoneTest.testacontrol Coverage Results" MODIFIED="1587091489119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_riskzoneTest_testqareaCheck.coverage" NAME="Unittest riskzoneTest.testqareaCheck Coverage Results" MODIFIED="1587110865314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/SafetyappEducate$commonProc.coverage" NAME="commonProc Coverage Results" MODIFIED="1577674588387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/process" />
+    <SUITE FILE_PATH="coverage/SafetyappEducate$Unittest_courseCommentTest_testBegintime.coverage" NAME="Unittest courseCommentTest.testBegintime Coverage Results" MODIFIED="1578017343358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAuto$Unittest_initializationTest_testCheckCollMath.coverage" NAME="Unittest initializationTest.testCheckCollMath Coverage Results" MODIFIED="1582375597159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/SafetyappEducate$Unittests_in_test1__1_.coverage" NAME="Unittests in test1 (1) Coverage Results" MODIFIED="1578363244899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/process" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testFillForm.coverage" NAME="Unittest initializationTest.testFillForm Coverage Results" MODIFIED="1582619962614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittests_in_sceneTest__1_.coverage" NAME="Unittests in sceneTest (1) Coverage Results" MODIFIED="1530758886763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testdowHua2.coverage" NAME="Unittest initializationTest.testdowHua2 Coverage Results" MODIFIED="1585632823378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittests_in_loginTest__2_.coverage" NAME="Unittests in loginTest (2) Coverage Results" MODIFIED="1530609530840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_execite_test_is_none.coverage" NAME="Unittest execite.test_is_none Coverage Results" MODIFIED="1583916558382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testmende2.coverage" NAME="Unittest initializationTest.testmende2 Coverage Results" MODIFIED="1585633340497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittests_in_riskzoneTest.coverage" NAME="Unittests in riskzoneTest Coverage Results" MODIFIED="1587092296645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittest_loginTest_testWrongUser.coverage" NAME="Unittest loginTest.testWrongUser Coverage Results" MODIFIED="1530688786640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAuto$excel.coverage" NAME="excel Coverage Results" MODIFIED="1581998055371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittests_in_homePageTest.coverage" NAME="Unittests in homePageTest Coverage Results" MODIFIED="1530755452660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_riskzoneTest_testmende1.coverage" NAME="Unittest riskzoneTest.testmende1 Coverage Results" MODIFIED="1586842149349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/SafetyappEducate$Unittests_in_execite__3_.coverage" NAME="Unittests in execite (3) Coverage Results" MODIFIED="1578377670285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/process" />
+    <SUITE FILE_PATH="coverage/SafetyappEducate$Unittest_courseCommentTest_testAllDeleteCancel1.coverage" NAME="Unittest courseCommentTest.testAllDeleteCancel1 Coverage Results" MODIFIED="1577434185593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/SafetyappEducate$Unittests_in_test1.coverage" NAME="Unittests in test1 Coverage Results" MODIFIED="1578361123992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/process" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$run.coverage" NAME="run Coverage Results" MODIFIED="1583919640548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/WeChatSmartHome$commonProc.coverage" NAME="commonProc Coverage Results" MODIFIED="1530147907795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/process" />
+    <SUITE FILE_PATH="coverage/WeChatSmartHome$ddd.coverage" NAME="ddd Coverage Results" MODIFIED="1530610798372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAuto$Unittest_initializationTest_testFillForm.coverage" NAME="Unittest initializationTest.testFillForm Coverage Results" MODIFIED="1582372622497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testCheckCollEmpty.coverage" NAME="Unittest initializationTest.testCheckCollEmpty Coverage Results" MODIFIED="1582853269263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testdowHua.coverage" NAME="Unittest initializationTest.testdowHua Coverage Results" MODIFIED="1586246125355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittest_loginTest_testNoneUser.coverage" NAME="Unittest loginTest.testNoneUser Coverage Results" MODIFIED="1530666835950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testmendow.coverage" NAME="Unittest initializationTest.testmendow Coverage Results" MODIFIED="1585638610179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittest_loginTest_testpand.coverage" NAME="Unittest loginTest.testpand Coverage Results" MODIFIED="1530666046578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAuto$Unittest_initializationTest_testEN.coverage" NAME="Unittest initializationTest.testEN Coverage Results" MODIFIED="1582082002698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/SafetyappEducate$Unittest_courseCommentTest_testDeleteCancel1.coverage" NAME="Unittest courseCommentTest.testDeleteCancel1 Coverage Results" MODIFIED="1578018686059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testdrawPt.coverage" NAME="Unittest initializationTest.testdrawPt Coverage Results" MODIFIED="1586481482194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittest_loginTest_testLoginSuccess.coverage" NAME="Unittest loginTest.testLoginSuccess Coverage Results" MODIFIED="1531462950494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittests_in_execite.coverage" NAME="Unittests in execite Coverage Results" MODIFIED="1583917443524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testPict.coverage" NAME="Unittest initializationTest.testPict Coverage Results" MODIFIED="1586502097632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittest_loginTest_testWrongUser__2_.coverage" NAME="Unittest loginTest.testWrongUser (2) Coverage Results" MODIFIED="1530067277188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_riskzoneTest_testpict.coverage" NAME="Unittest riskzoneTest.testpict Coverage Results" MODIFIED="1587089713531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/SafetyappEducate$Unittest_courseCommentTest_testbegintime2.coverage" NAME="Unittest courseCommentTest.testbegintime2 Coverage Results" MODIFIED="1578028958341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittests_in_Testlogin.coverage" NAME="Unittests in Testlogin Coverage Results" MODIFIED="1530609020827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittests_in_mineTest.coverage" NAME="Unittests in mineTest Coverage Results" MODIFIED="1530776817559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/WeChatSmartHome$all_tests.coverage" NAME="all_tests Coverage Results" MODIFIED="1550558388683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SafetyappEducate$Unittest_demo_testAs01.coverage" NAME="Unittest demo.testAs01 Coverage Results" MODIFIED="1579226223796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_riskzoneTest_testdowHua.coverage" NAME="Unittest riskzoneTest.testdowHua Coverage Results" MODIFIED="1586916164533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittests_in_execite1.coverage" NAME="Unittests in execite1 Coverage Results" MODIFIED="1583917331337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_riskzoneTest_testqbindPtcheck.coverage" NAME="Unittest riskzoneTest.testqbindPtcheck Coverage Results" MODIFIED="1586943734655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_riskzoneTest_testdrawSqu.coverage" NAME="Unittest riskzoneTest.testdrawSqu Coverage Results" MODIFIED="1586754402150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/SafetyappEducate$htmlImg__1_.coverage" NAME="htmlImg (1) Coverage Results" MODIFIED="1578474038059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_riskzoneTest_testmende2.coverage" NAME="Unittest riskzoneTest.testmende2 Coverage Results" MODIFIED="1586931183032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittest_loginTest_testWrongUser__1_.coverage" NAME="Unittest loginTest.testWrongUser (1) Coverage Results" MODIFIED="1530067158567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittest_homePageTest_testDeviceDetail.coverage" NAME="Unittest homePageTest.testDeviceDetail Coverage Results" MODIFIED="1530755420539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_riskzoneTest_testcontrol.coverage" NAME="Unittest riskzoneTest.testcontrol Coverage Results" MODIFIED="1587004444958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/WeChatSmartHome$mineProc.coverage" NAME="mineProc Coverage Results" MODIFIED="1530771195521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/process" />
     <SUITE FILE_PATH="coverage/SafetyappEducate$Unittests_in_exec__1_.coverage" NAME="Unittests in exec (1) Coverage Results" MODIFIED="1578374938874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/process" />
     <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testmende1.coverage" NAME="Unittest initializationTest.testmende1 Coverage Results" MODIFIED="1584950666211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/SafetyappEducate$Unittest_courseCommentTest_testEndtime.coverage" NAME="Unittest courseCommentTest.testEndtime Coverage Results" MODIFIED="1578016657873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testte.coverage" NAME="Unittest initializationTest.testte Coverage Results" MODIFIED="1582855995069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/SafetyappEducate$Unittest_courseCommentTest_testDeleteSuccess.coverage" NAME="Unittest courseCommentTest.testDeleteSuccess Coverage Results" MODIFIED="1578379700565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testCheckCollMath.coverage" NAME="Unittest initializationTest.testCheckCollMath Coverage Results" MODIFIED="1582853432575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/96UIAuto$Unittest_initializationTest_testAccountHost.coverage" NAME="Unittest initializationTest.testAccountHost Coverage Results" MODIFIED="1582273996599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittest_messageTest_testAlarm.coverage" NAME="Unittest messageTest.testAlarm Coverage Results" MODIFIED="1530779891267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittest_mineTest_testGateWayMessage.coverage" NAME="Unittest mineTest.testGateWayMessage Coverage Results" MODIFIED="1530773798483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittests_in_sceneTest.coverage" NAME="Unittests in sceneTest Coverage Results" MODIFIED="1530757577011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittests_in_Testlogin__1_.coverage" NAME="Unittests in Testlogin (1) Coverage Results" MODIFIED="1530609099501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testShiguRefer.coverage" NAME="Unittest initializationTest.testShiguRefer Coverage Results" MODIFIED="1586327030445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/WeChatSmartHome$testWeb.coverage" NAME="testWeb Coverage Results" MODIFIED="1530609439992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
-    <SUITE FILE_PATH="coverage/WeChatSmartHome$excel.coverage" NAME="excel Coverage Results" MODIFIED="1530691103626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
-    <SUITE FILE_PATH="coverage/SafetyappEducate$openWeb.coverage" NAME="openWeb Coverage Results" MODIFIED="1577352077126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
-    <SUITE FILE_PATH="coverage/WeChatSmartHome$loginTest__1_.coverage" NAME="loginTest (1) Coverage Results" MODIFIED="1530609215274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/SafetyappEducate$execite.coverage" NAME="execite Coverage Results" MODIFIED="1578377594973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/process" />
-    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testmende.coverage" NAME="Unittest initializationTest.testmende Coverage Results" MODIFIED="1584950280445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/SafetyappEducate$all_tests.coverage" NAME="all_tests Coverage Results" MODIFIED="1578475694890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testbindIrregcheck.coverage" NAME="Unittest initializationTest.testbindIrregcheck Coverage Results" MODIFIED="1586488043664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testbindSqu.coverage" NAME="Unittest initializationTest.testbindSqu Coverage Results" MODIFIED="1586490714994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testshiguSimulation.coverage" NAME="Unittest initializationTest.testshiguSimulation Coverage Results" MODIFIED="1586483405386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/96UIAuto$demou.coverage" NAME="demou Coverage Results" MODIFIED="1582186088800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
     <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittest_sceneTest_testSceneRecord.coverage" NAME="Unittest sceneTest.testSceneRecord Coverage Results" MODIFIED="1530779931248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testDrawIrreg.coverage" NAME="Unittest initializationTest.testDrawIrreg Coverage Results" MODIFIED="1586480215194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/SafetyappEducate$Unittest_test_test_is_none.coverage" NAME="Unittest test.test_is_none Coverage Results" MODIFIED="1578362316573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/process" />
     <SUITE FILE_PATH="coverage/SafetyappEducate$Unittest_loginTest_testDeleteSuccess.coverage" NAME="Unittest loginTest.testDeleteSuccess Coverage Results" MODIFIED="1577178421385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testshiguCalValue.coverage" NAME="Unittest initializationTest.testshiguCalValue Coverage Results" MODIFIED="1586482338943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/96UIAutoC$execite1.coverage" NAME="execite1 Coverage Results" MODIFIED="1583917233917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
     <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testbindCir.coverage" NAME="Unittest initializationTest.testbindCir Coverage Results" MODIFIED="1586496289479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/SafetyappEducate$Unittest_courseCommentTest_testCircleClose.coverage" NAME="Unittest courseCommentTest.testCircleClose Coverage Results" MODIFIED="1578021412513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/SafetyappEducate$Unittest_courseCommentTest_testAllDeleteCancel1__1_.coverage" NAME="Unittest courseCommentTest.testAllDeleteCancel1 (1) Coverage Results" MODIFIED="1577434281249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittest_loginTest_testVeNoneUser.coverage" NAME="Unittest loginTest.testVeNoneUser Coverage Results" MODIFIED="1530683386569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittests_in_loginTest__3_.coverage" NAME="Unittests in loginTest (3) Coverage Results" MODIFIED="1530609403835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/96UIAutoC$htmlImg.coverage" NAME="htmlImg Coverage Results" MODIFIED="1582611090128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
     <SUITE FILE_PATH="coverage/SafetyappEducate$Unittest_demo_testAs01__1_.coverage" NAME="Unittest demo.testAs01 (1) Coverage Results" MODIFIED="1579245822545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
     <SUITE FILE_PATH="coverage/SafetyappEducate$Unittest_courseCommTest_testDeleteCancel.coverage" NAME="Unittest courseCommTest.testDeleteCancel Coverage Results" MODIFIED="1578547033740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittest_loginTest_testVCodeLogin.coverage" NAME="Unittest loginTest.testVCodeLogin Coverage Results" MODIFIED="1530671036689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/SafetyappEducate$Unittest_test_test_case_2__1_.coverage" NAME="Unittest test.test_case_2 (1) Coverage Results" MODIFIED="1578289521084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/process" />
-    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testAFillForm.coverage" NAME="Unittest initializationTest.testAFillForm Coverage Results" MODIFIED="1584929249074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_riskzoneTest_testdowHua1.coverage" NAME="Unittest riskzoneTest.testdowHua1 Coverage Results" MODIFIED="1586940130643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/SafetyappEducate$htmlImg.coverage" NAME="htmlImg Coverage Results" MODIFIED="1578472111038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/result" />
     <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittest_messageTest_testLog.coverage" NAME="Unittest messageTest.testLog Coverage Results" MODIFIED="1530762384715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testdrawSqu.coverage" NAME="Unittest initializationTest.testdrawSqu Coverage Results" MODIFIED="1586479296075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittest_loginTest_testWrongUser__3_.coverage" NAME="Unittest loginTest.testWrongUser (3) Coverage Results" MODIFIED="1530067498418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testshigu.coverage" NAME="Unittest initializationTest.testshigu Coverage Results" MODIFIED="1586314573092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_riskzoneTest_testdrawCir.coverage" NAME="Unittest riskzoneTest.testdrawCir Coverage Results" MODIFIED="1586506136539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/SafetyappEducate$Unittest_courseCommTest_testScoreSucc.coverage" NAME="Unittest courseCommTest.testScoreSucc Coverage Results" MODIFIED="1578389663089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/SafetyappEducate$Unittest_test_test_case_2.coverage" NAME="Unittest test.test_case_2 Coverage Results" MODIFIED="1578289574496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/process" />
-    <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittests_in_messageTest.coverage" NAME="Unittests in messageTest Coverage Results" MODIFIED="1530762437685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittest_sceneTest_testSceneShow.coverage" NAME="Unittest sceneTest.testSceneShow Coverage Results" MODIFIED="1530758294846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testassessmen.coverage" NAME="Unittest initializationTest.testassessmen Coverage Results" MODIFIED="1586502582758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$excel.coverage" NAME="excel Coverage Results" MODIFIED="1586509676814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_riskzoneTest_testdrawCir.coverage" NAME="Unittest riskzoneTest.testdrawCir Coverage Results" MODIFIED="1586943232347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/SafetyappEducate$Unittest_courseCommentTest_testAllDeleteCancel.coverage" NAME="Unittest courseCommentTest.testAllDeleteCancel Coverage Results" MODIFIED="1577434018716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testmendeCheck.coverage" NAME="Unittest initializationTest.testmendeCheck Coverage Results" MODIFIED="1586244027855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testchecknumFormat.coverage" NAME="Unittest initializationTest.testchecknumFormat Coverage Results" MODIFIED="1587084964089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittests_in_open.coverage" NAME="Unittests in open Coverage Results" MODIFIED="1529897469892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
     <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testTe.coverage" NAME="Unittest initializationTest.testTe Coverage Results" MODIFIED="1584425046127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittest_loginTest_testVeCodeLogin.coverage" NAME="Unittest loginTest.testVeCodeLogin Coverage Results" MODIFIED="1530683350509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testbindCircheck.coverage" NAME="Unittest initializationTest.testbindCircheck Coverage Results" MODIFIED="1586496389831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testdowCheck.coverage" NAME="Unittest initializationTest.testdowCheck Coverage Results" MODIFIED="1586245850195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_riskzoneTest_testhiguCheck.coverage" NAME="Unittest riskzoneTest.testhiguCheck Coverage Results" MODIFIED="1586770597940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittest_mineTest_testBandCount.coverage" NAME="Unittest mineTest.testBandCount Coverage Results" MODIFIED="1530772957929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/SafetyappEducate$Unittest_courseCommTest_testbegintime2__1_.coverage" NAME="Unittest courseCommTest.testbegintime2 (1) Coverage Results" MODIFIED="1579224143370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testCheckEmpty.coverage" NAME="Unittest initializationTest.testCheckEmpty Coverage Results" MODIFIED="1582608778054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/SafetyappEducate$Unittest_courseCommentTest_testScoreCanc.coverage" NAME="Unittest courseCommentTest.testScoreCanc Coverage Results" MODIFIED="1577438041250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittests_in_ddd.coverage" NAME="Unittests in ddd Coverage Results" MODIFIED="1530610819799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testCheckEmpty.coverage" NAME="Unittest initializationTest.testCheckEmpty Coverage Results" MODIFIED="1587020961653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittests_in_houseKeeperTest.coverage" NAME="Unittests in houseKeeperTest Coverage Results" MODIFIED="1530778658586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/SafetyappEducate$Unittests_in_exec__2_.coverage" NAME="Unittests in exec (2) Coverage Results" MODIFIED="1578367421822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/process" />
-    <SUITE FILE_PATH="coverage/SafetyappEducate$Unittest_demo_test02__1_.coverage" NAME="Unittest demo.test02 (1) Coverage Results" MODIFIED="1579225661044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
     <SUITE FILE_PATH="coverage/SafetyappEducate$excel.coverage" NAME="excel Coverage Results" MODIFIED="1581928413177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
-    <SUITE FILE_PATH="coverage/SafetyappEducate$Unittests_in_execite__2_.coverage" NAME="Unittests in execite (2) Coverage Results" MODIFIED="1578377487909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/process" />
-    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testEditTestAccount.coverage" NAME="Unittest initializationTest.testEditTestAccount Coverage Results" MODIFIED="1582767627326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/SafetyappEducate$Unittest_demo_test01.coverage" NAME="Unittest demo.test01 Coverage Results" MODIFIED="1579226182457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
-    <SUITE FILE_PATH="coverage/SafetyappEducate$demo.coverage" NAME="demo Coverage Results" MODIFIED="1579249106315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
     <SUITE FILE_PATH="coverage/SafetyappEducate$Unittests_in_demou.coverage" NAME="Unittests in demou Coverage Results" MODIFIED="1578550882809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
     <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittests_in_loginTest.coverage" NAME="Unittests in loginTest Coverage Results" MODIFIED="1530685685506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testchecknumEmpty.coverage" NAME="Unittest initializationTest.testchecknumEmpty Coverage Results" MODIFIED="1587084912743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/SafetyappEducate1$openWeb.coverage" NAME="openWeb Coverage Results" MODIFIED="1581929020199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
-    <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittest_loginTest_testAVeCodeWrong.coverage" NAME="Unittest loginTest.testAVeCodeWrong Coverage Results" MODIFIED="1530691010765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/SafetyappEducate$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1578363232642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/process" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_riskzoneTest_testqbindIrreg.coverage" NAME="Unittest riskzoneTest.testqbindIrreg Coverage Results" MODIFIED="1587029691154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/96UIAuto$Unittest_initializationTest_testCollateralForm.coverage" NAME="Unittest initializationTest.testCollateralForm Coverage Results" MODIFIED="1582376260594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/SafetyappEducate$Unittest_exec_test_is_none.coverage" NAME="Unittest exec.test_is_none Coverage Results" MODIFIED="1578365155192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/process" />
-    <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittest_mineTest_testGatewayList.coverage" NAME="Unittest mineTest.testGatewayList Coverage Results" MODIFIED="1530779718780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_riskzoneTest_testqbindCir.coverage" NAME="Unittest riskzoneTest.testqbindCir Coverage Results" MODIFIED="1586746496943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/96UIAutoC$Unittests_in_initializationTest__1_.coverage" NAME="Unittests in initializationTest (1) Coverage Results" MODIFIED="1586487406826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittest_sceneTest_testop.coverage" NAME="Unittest sceneTest.testop Coverage Results" MODIFIED="1530846341885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testBCollateralForm.coverage" NAME="Unittest initializationTest.testBCollateralForm Coverage Results" MODIFIED="1582777265921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/96UIAutoC$execite.coverage" NAME="execite Coverage Results" MODIFIED="1583914804271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
-    <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittest_loginTest_testVeCodeWrong.coverage" NAME="Unittest loginTest.testVeCodeWrong Coverage Results" MODIFIED="1530683282053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testCollateralForm.coverage" NAME="Unittest initializationTest.testCollateralForm Coverage Results" MODIFIED="1582620064868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittests_in_loginTest__1_.coverage" NAME="Unittests in loginTest (1) Coverage Results" MODIFIED="1530691170165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testBCollateralForm.coverage" NAME="Unittest initializationTest.testBCollateralForm Coverage Results" MODIFIED="1587102419564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testy.coverage" NAME="Unittest initializationTest.testy Coverage Results" MODIFIED="1586334181866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/96UIAuto$Unittest_initializationTest_testCheckForm.coverage" NAME="Unittest initializationTest.testCheckForm Coverage Results" MODIFIED="1582372736428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/SafetyappEducate$Unittest_demo_test02__2_.coverage" NAME="Unittest demo.test02 (2) Coverage Results" MODIFIED="1579226031227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
-    <SUITE FILE_PATH="coverage/SafetyappEducate$Unittest_courseCommentTest_testScoreSucc.coverage" NAME="Unittest courseCommentTest.testScoreSucc Coverage Results" MODIFIED="1578018450176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testdowHua1.coverage" NAME="Unittest initializationTest.testdowHua1 Coverage Results" MODIFIED="1585035096370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/SafetyappEducate$send_email.coverage" NAME="send_email Coverage Results" MODIFIED="1578454680957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
     <SUITE FILE_PATH="coverage/96UIAutoC$riskzoneBaseProc.coverage" NAME="riskzoneBaseProc Coverage Results" MODIFIED="1586257133488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/process" />
-    <SUITE FILE_PATH="coverage/SafetyappEducate$commonProc.coverage" NAME="commonProc Coverage Results" MODIFIED="1577674588387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/process" />
-    <SUITE FILE_PATH="coverage/SafetyappEducate$Unittest_courseCommentTest_testBegintime.coverage" NAME="Unittest courseCommentTest.testBegintime Coverage Results" MODIFIED="1578017343358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/96UIAutoC$Unittests_in_initializationTest.coverage" NAME="Unittests in initializationTest Coverage Results" MODIFIED="1586487334970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/96UIAuto$Unittest_initializationTest_testCheckCollMath.coverage" NAME="Unittest initializationTest.testCheckCollMath Coverage Results" MODIFIED="1582375597159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittests_in_initializationTest.coverage" NAME="Unittests in initializationTest Coverage Results" MODIFIED="1587105217816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testAccountHost.coverage" NAME="Unittest initializationTest.testAccountHost Coverage Results" MODIFIED="1582681905914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/SafetyappEducate$Unittests_in_test1__1_.coverage" NAME="Unittests in test1 (1) Coverage Results" MODIFIED="1578363244899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/process" />
     <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testbindPt.coverage" NAME="Unittest initializationTest.testbindPt Coverage Results" MODIFIED="1586500679191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testFillForm.coverage" NAME="Unittest initializationTest.testFillForm Coverage Results" MODIFIED="1582619962614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittests_in_sceneTest__1_.coverage" NAME="Unittests in sceneTest (1) Coverage Results" MODIFIED="1530758886763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_riskzoneTest_testmende.coverage" NAME="Unittest riskzoneTest.testmende Coverage Results" MODIFIED="1587026938476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testinherent.coverage" NAME="Unittest initializationTest.testinherent Coverage Results" MODIFIED="1586244415225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_riskzoneTest_testqbindSqucheck.coverage" NAME="Unittest riskzoneTest.testqbindSqucheck Coverage Results" MODIFIED="1586922445861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/SafetyappEducate$Unittest_courseCommTest_testAllDeleteSucc.coverage" NAME="Unittest courseCommTest.testAllDeleteSucc Coverage Results" MODIFIED="1578476791544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testdowHua2.coverage" NAME="Unittest initializationTest.testdowHua2 Coverage Results" MODIFIED="1585632823378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittests_in_loginTest__2_.coverage" NAME="Unittests in loginTest (2) Coverage Results" MODIFIED="1530609530840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/SafetyappEducate$Unittest_demo_test02__3_.coverage" NAME="Unittest demo.test02 (3) Coverage Results" MODIFIED="1579226146783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
-    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_execite_test_is_none.coverage" NAME="Unittest execite.test_is_none Coverage Results" MODIFIED="1583916558382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
     <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittest_homePageTest_testShowHome.coverage" NAME="Unittest homePageTest.testShowHome Coverage Results" MODIFIED="1530697590572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testmende2.coverage" NAME="Unittest initializationTest.testmende2 Coverage Results" MODIFIED="1585633340497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testmendow__2_.coverage" NAME="Unittest initializationTest.testmendow (2) Coverage Results" MODIFIED="1586220472289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/96UIAutoC$all_tests.coverage" NAME="all_tests Coverage Results" MODIFIED="1582787167677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/96UIAutoC$Unittests_in_riskzoneTest.coverage" NAME="Unittests in riskzoneTest Coverage Results" MODIFIED="1586502596999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittest_loginTest_testWrongUser.coverage" NAME="Unittest loginTest.testWrongUser Coverage Results" MODIFIED="1530688786640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/96UIAuto$excel.coverage" NAME="excel Coverage Results" MODIFIED="1581998055371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$all_tests.coverage" NAME="all_tests Coverage Results" MODIFIED="1587105887278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SafetyappEducate$exec.coverage" NAME="exec Coverage Results" MODIFIED="1578365783354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/process" />
     <SUITE FILE_PATH="coverage/SafetyappEducate$Unittest_demo_test02.coverage" NAME="Unittest demo.test02 Coverage Results" MODIFIED="1579226004882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
-    <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittests_in_homePageTest.coverage" NAME="Unittests in homePageTest Coverage Results" MODIFIED="1530755452660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/96UIAuto$Unittest_initializationTest_testCheckCollEmpty.coverage" NAME="Unittest initializationTest.testCheckCollEmpty Coverage Results" MODIFIED="1582507074693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testshiguCheck.coverage" NAME="Unittest initializationTest.testshiguCheck Coverage Results" MODIFIED="1586482790539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/WeChatSmartHome$openWeb.coverage" NAME="openWeb Coverage Results" MODIFIED="1550565433999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
-    <SUITE FILE_PATH="coverage/SafetyappEducate$Unittests_in_execite__3_.coverage" NAME="Unittests in execite (3) Coverage Results" MODIFIED="1578377670285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/process" />
-    <SUITE FILE_PATH="coverage/SafetyappEducate$Unittest_courseCommentTest_testAllDeleteCancel1.coverage" NAME="Unittest courseCommentTest.testAllDeleteCancel1 Coverage Results" MODIFIED="1577434185593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/SafetyappEducate$Unittests_in_test1.coverage" NAME="Unittests in test1 Coverage Results" MODIFIED="1578361123992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/process" />
-    <SUITE FILE_PATH="coverage/96UIAutoC$run.coverage" NAME="run Coverage Results" MODIFIED="1583919640548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
     <SUITE FILE_PATH="coverage/SafetyappEducate$Unittest_courseCommentTest_testBegintime1.coverage" NAME="Unittest courseCommentTest.testBegintime1 Coverage Results" MODIFIED="1578379541500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/WeChatSmartHome$commonProc.coverage" NAME="commonProc Coverage Results" MODIFIED="1530147907795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/process" />
     <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testStationNotNull.coverage" NAME="Unittest initializationTest.testStationNotNull Coverage Results" MODIFIED="1582607641928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testcontrol.coverage" NAME="Unittest initializationTest.testcontrol Coverage Results" MODIFIED="1584933008884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/WeChatSmartHome$ddd.coverage" NAME="ddd Coverage Results" MODIFIED="1530610798372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testbindPtcheck.coverage" NAME="Unittest initializationTest.testbindPtcheck Coverage Results" MODIFIED="1586500306319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testbindIrreg.coverage" NAME="Unittest initializationTest.testbindIrreg Coverage Results" MODIFIED="1586486128364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/96UIAuto$Unittest_initializationTest_testFillForm.coverage" NAME="Unittest initializationTest.testFillForm Coverage Results" MODIFIED="1582372622497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_riskzoneTest_testhiguRefer.coverage" NAME="Unittest riskzoneTest.testhiguRefer Coverage Results" MODIFIED="1587015352812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/96UIAuto$Unittests_in_initializationTest.coverage" NAME="Unittests in initializationTest Coverage Results" MODIFIED="1582505613599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testCheckCollEmpty.coverage" NAME="Unittest initializationTest.testCheckCollEmpty Coverage Results" MODIFIED="1582853269263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testbindSqucheck.coverage" NAME="Unittest initializationTest.testbindSqucheck Coverage Results" MODIFIED="1586500785602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testdowHua.coverage" NAME="Unittest initializationTest.testdowHua Coverage Results" MODIFIED="1586246125355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittest_loginTest_testNoneUser.coverage" NAME="Unittest loginTest.testNoneUser Coverage Results" MODIFIED="1530666835950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testmendow.coverage" NAME="Unittest initializationTest.testmendow Coverage Results" MODIFIED="1585638610179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittest_loginTest_testpand.coverage" NAME="Unittest loginTest.testpand Coverage Results" MODIFIED="1530666046578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/96UIAuto$Unittest_initializationTest_testEN.coverage" NAME="Unittest initializationTest.testEN Coverage Results" MODIFIED="1582082002698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/SafetyappEducate$Unittest_courseCommentTest_testCircleClose1.coverage" NAME="Unittest courseCommentTest.testCircleClose1 Coverage Results" MODIFIED="1578029404664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/SafetyappEducate$Unittest_courseCommentTest_testDeleteCancel1.coverage" NAME="Unittest courseCommentTest.testDeleteCancel1 Coverage Results" MODIFIED="1578018686059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testdrawPt.coverage" NAME="Unittest initializationTest.testdrawPt Coverage Results" MODIFIED="1586481482194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittest_loginTest_testLoginSuccess.coverage" NAME="Unittest loginTest.testLoginSuccess Coverage Results" MODIFIED="1531462950494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/WeChatSmartHome$loginTest.coverage" NAME="loginTest Coverage Results" MODIFIED="1530610110312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittests_in_loginTest__4_.coverage" NAME="Unittests in loginTest (4) Coverage Results" MODIFIED="1530609493622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittest_homePageTest_testSearchDevice.coverage" NAME="Unittest homePageTest.testSearchDevice Coverage Results" MODIFIED="1530779806325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/96UIAutoC$Unittests_in_execite.coverage" NAME="Unittests in execite Coverage Results" MODIFIED="1583917443524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
     <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testmendow__1_.coverage" NAME="Unittest initializationTest.testmendow (1) Coverage Results" MODIFIED="1586220431117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testPict.coverage" NAME="Unittest initializationTest.testPict Coverage Results" MODIFIED="1586502097632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittest_loginTest_testWrongUser__2_.coverage" NAME="Unittest loginTest.testWrongUser (2) Coverage Results" MODIFIED="1530067277188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/SafetyappEducate$Unittest_courseCommentTest_testbegintime2.coverage" NAME="Unittest courseCommentTest.testbegintime2 Coverage Results" MODIFIED="1578028958341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_riskzoneTest_testqpointCheck.coverage" NAME="Unittest riskzoneTest.testqpointCheck Coverage Results" MODIFIED="1586842695193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/96UIAuto$Unittest_initializationTest_testaccesForm.coverage" NAME="Unittest initializationTest.testaccesForm Coverage Results" MODIFIED="1582369756829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_riskzoneTest_testdowHua2.coverage" NAME="Unittest riskzoneTest.testdowHua2 Coverage Results" MODIFIED="1586939386437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/96UIAuto$Unittest_initializationTest_testCheckNotMath.coverage" NAME="Unittest initializationTest.testCheckNotMath Coverage Results" MODIFIED="1582374401416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/SafetyappEducate$log.coverage" NAME="log Coverage Results" MODIFIED="1577774103317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
     <SUITE FILE_PATH="coverage/SafetyappEducate$courseCommentTest.coverage" NAME="courseCommentTest Coverage Results" MODIFIED="1578381864980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittests_in_Testlogin.coverage" NAME="Unittests in Testlogin Coverage Results" MODIFIED="1530609020827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_riskzoneTest_testhiguSimulation.coverage" NAME="Unittest riskzoneTest.testhiguSimulation Coverage Results" MODIFIED="1587015217232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -214,8 +267,8 @@
       <file leaf-file-name="commonProc.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/process/commonProc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="227" column="8" lean-forward="false" selection-start-line="227" selection-start-column="8" selection-end-line="227" selection-end-column="8" />
+            <state relative-caret-position="234">
+              <caret line="38" column="26" lean-forward="true" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
               <folding>
                 <element signature="e#15#30#0" expanded="true" />
               </folding>
@@ -226,11 +279,19 @@
       <file leaf-file-name="riskzoneBaseProc.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/process/riskzoneBaseProc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="400" column="31" lean-forward="false" selection-start-line="400" selection-start-column="31" selection-end-line="400" selection-end-column="31" />
-              <folding>
-                <element signature="e#373#395#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="3379">
+              <caret line="362" column="8" lean-forward="false" selection-start-line="362" selection-start-column="8" selection-end-line="362" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="initializationTest.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testcase/initializationTest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-299">
+              <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -239,7 +300,7 @@
         <entry file="file://$PROJECT_DIR$/process/riskzoneProc.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="166">
-              <caret line="535" column="8" lean-forward="false" selection-start-line="535" selection-start-column="8" selection-end-line="535" selection-end-column="8" />
+              <caret line="624" column="8" lean-forward="false" selection-start-line="624" selection-start-column="8" selection-end-line="624" selection-end-column="8" />
               <folding>
                 <element signature="e#70#134#0" expanded="true" />
               </folding>
@@ -247,31 +308,61 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="riskzoneTest.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="riskzoneTest.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testcase/riskzoneTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="121" column="13" lean-forward="false" selection-start-line="121" selection-start-column="13" selection-end-line="121" selection-end-column="13" />
+            <state relative-caret-position="194">
+              <caret line="170" column="23" lean-forward="true" selection-start-line="170" selection-start-column="23" selection-end-line="170" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="all_tests.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="openWeb.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/openWeb.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="57" column="26" lean-forward="false" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="all_tests.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/all_tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="23" column="36" lean-forward="false" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+            <state relative-caret-position="347">
+              <caret line="79" column="14" lean-forward="true" selection-start-line="79" selection-start-column="14" selection-end-line="79" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="data.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/data.py">
+      <file leaf-file-name="send_email.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/send_email.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mailText.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/mailText.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="17" column="27" lean-forward="false" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+              <caret line="17" column="41" lean-forward="true" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="text.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/email/mime/text.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -298,6 +389,17 @@
       <find>wait</find>
       <find>弗比斯</find>
       <find>sleep</find>
+      <find>wd.enterById(driver,'MF',value)</find>
+      <find>环境</find>
+      <find>wd.clickByXpath(driver, ex.xpathCon('shiguadd'))</find>
+      <find>wd.clickByXpath(driver,ex.xpathCon('mondadd'))</find>
+      <find>wd.clickByXpath(driver,ex.xpathCon('bind'))</find>
+      <find>wd.clickByXpath(driver,ex.xpathCon('LECadd'))</find>
+      <find>drop</find>
+      <find>te=com.getTextByXpath(driver,ex.xpathCon('kzfxdj'))</find>
+      <find>测试企业</find>
+      <find>testinherent</find>
+      <find>dele</find>
     </findStrings>
     <replaceStrings>
       <replace>爱因斯坦</replace>
@@ -309,7 +411,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/htm.py" />
         <option value="$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/HTMLTestReportCN.py" />
         <option value="$PROJECT_DIR$/send_email01.py" />
         <option value="$PROJECT_DIR$/send_email.py" />
@@ -338,11 +439,7 @@
         <option value="$PROJECT_DIR$/process/courseCommProc.py" />
         <option value="$PROJECT_DIR$/public/demo.py" />
         <option value="$PROJECT_DIR$/process/InitializationProc.py" />
-        <option value="$PROJECT_DIR$/public/excel.py" />
         <option value="$PROJECT_DIR$/model/initializationModel.py" />
-        <option value="$PROJECT_DIR$/public/mailText.py" />
-        <option value="$PROJECT_DIR$/process/initialBaseProc.py" />
-        <option value="$PROJECT_DIR$/testcase/initializationTest.py" />
         <option value="$PROJECT_DIR$/public/data.py" />
         <option value="$PROJECT_DIR$/public/htmlImg.py" />
         <option value="$PROJECT_DIR$/public/execite1.py" />
@@ -351,15 +448,20 @@
         <option value="$PROJECT_DIR$/public/running.py" />
         <option value="$PROJECT_DIR$/model/riskzoneModel.py" />
         <option value="$PROJECT_DIR$/public/demou.py" />
-        <option value="$PROJECT_DIR$/public/send_email.py" />
-        <option value="$PROJECT_DIR$/process/initializationProc.py" />
-        <option value="$PROJECT_DIR$/public/openWeb.py" />
-        <option value="$PROJECT_DIR$/process/commonProc.py" />
-        <option value="$PROJECT_DIR$/util/webdr.py" />
-        <option value="$PROJECT_DIR$/testcase/riskzoneTest.py" />
         <option value="$PROJECT_DIR$/all_tests.py" />
-        <option value="$PROJECT_DIR$/process/riskzoneProc.py" />
+        <option value="$PROJECT_DIR$/public/send_email.py" />
+        <option value="$PROJECT_DIR$/public/excel.py" />
+        <option value="$USER_HOME$/AppData/Local/Temp/荒谬！美议员要中国为1.6万美国人死亡“负责”.url" />
+        <option value="$PROJECT_DIR$/util/webdr.py" />
+        <option value="$PROJECT_DIR$/public/openWeb.py" />
+        <option value="$PROJECT_DIR$/process/initialBaseProc.py" />
         <option value="$PROJECT_DIR$/process/riskzoneBaseProc.py" />
+        <option value="$PROJECT_DIR$/testcase/initializationTest.py" />
+        <option value="$PROJECT_DIR$/testcase/riskzoneTest.py" />
+        <option value="$PROJECT_DIR$/process/initializationProc.py" />
+        <option value="$PROJECT_DIR$/public/mailText.py" />
+        <option value="$PROJECT_DIR$/process/riskzoneProc.py" />
+        <option value="$PROJECT_DIR$/process/commonProc.py" />
       </list>
     </option>
   </component>
@@ -391,7 +493,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -401,6 +502,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="96UIAutoC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="96UIAutoC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="96UIAutoC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -477,6 +592,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -496,6 +612,11 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code\SafetyappEducate\result" />
+      <recent name="D:\code\SafetyappEducate\public" />
+      <recent name="D:\code\WeChatSmartHome" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\code\96UIAutoC\public" />
       <recent name="D:\code\96UIAutoC\testcase" />
@@ -503,14 +624,9 @@
       <recent name="D:\code\SafetyappEducate\public" />
       <recent name="D:\code\SafetyappEducate\process" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\code\SafetyappEducate\result" />
-      <recent name="D:\code\SafetyappEducate\public" />
-      <recent name="D:\code\WeChatSmartHome" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittest riskzoneTest.testdrawCir">
-    <configuration default="false" name="Unittest initializationTest.testbindSqucheck" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittest riskzoneTest.testqareaCheck">
+    <configuration default="false" name="Unittests in initializationTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -521,30 +637,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="WeChatSmartHome" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcase/riskzoneTest.py" />
-      <option name="CLASS_NAME" value="initializationTest" />
-      <option name="METHOD_NAME" value="testbindSqucheck" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_METHOD" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittests in riskzoneTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="WeChatSmartHome" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcase/riskzoneTest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcase/initializationTest.py" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
@@ -556,7 +649,7 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittest initializationTest.testPict" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Unittest initializationTest.testBCollateralForm" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -567,9 +660,9 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="WeChatSmartHome" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcase/riskzoneTest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcase/initializationTest.py" />
       <option name="CLASS_NAME" value="initializationTest" />
-      <option name="METHOD_NAME" value="testPict" />
+      <option name="METHOD_NAME" value="testBCollateralForm" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_METHOD" />
       <option name="PATTERN" value="" />
@@ -579,7 +672,7 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittest initializationTest.testassessmen" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Unittest initializationTest.testAFillForm" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -590,9 +683,9 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="WeChatSmartHome" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcase/riskzoneTest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcase/initializationTest.py" />
       <option name="CLASS_NAME" value="initializationTest" />
-      <option name="METHOD_NAME" value="testassessmen" />
+      <option name="METHOD_NAME" value="testAFillForm" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_METHOD" />
       <option name="PATTERN" value="" />
@@ -602,7 +695,25 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittest riskzoneTest.testdrawCir" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="all_tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="WeChatSmartHome" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/all_tests.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittest riskzoneTest.testqareaCheck" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -615,7 +726,7 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcase/riskzoneTest.py" />
       <option name="CLASS_NAME" value="riskzoneTest" />
-      <option name="METHOD_NAME" value="testdrawCir" />
+      <option name="METHOD_NAME" value="testqareaCheck" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_METHOD" />
       <option name="PATTERN" value="" />
@@ -864,19 +975,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python tests.WeChatSmartHome" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest initializationTest.testbindSqucheck" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in riskzoneTest" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest initializationTest.testPict" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest initializationTest.testassessmen" />
-      <item index="5" class="java.lang.String" itemvalue="Python tests.Unittest riskzoneTest.testdrawCir" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in initializationTest" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest initializationTest.testBCollateralForm" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest initializationTest.testAFillForm" />
+      <item index="4" class="java.lang.String" itemvalue="Python.all_tests" />
+      <item index="5" class="java.lang.String" itemvalue="Python tests.Unittest riskzoneTest.testqareaCheck" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest riskzoneTest.testdrawCir" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in riskzoneTest" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest initializationTest.testassessmen" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest initializationTest.testPict" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest initializationTest.testbindSqucheck" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest riskzoneTest.testqareaCheck" />
+        <item index="1" class="java.lang.String" itemvalue="Python.all_tests" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in initializationTest" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest initializationTest.testAFillForm" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest initializationTest.testBCollateralForm" />
       </list>
     </recent_temporary>
   </component>
@@ -912,35 +1023,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittest_initializationTest_testPict - 2020.04.10 at 15h 02m 50s.xml">
-      <configuration name="Unittest initializationTest.testPict" configurationId="tests" />
+    <history-entry file="Unittest_initializationTest_testAFillForm - 2020.04.17 at 14h 01m 51s.xml">
+      <configuration name="Unittest initializationTest.testAFillForm" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_initializationTest_testassessmen - 2020.04.10 at 15h 05m 01s.xml">
-      <configuration name="Unittest initializationTest.testassessmen" configurationId="tests" />
+    <history-entry file="Unittest_initializationTest_testBCollateralForm - 2020.04.17 at 13h 47m 51s.xml">
+      <configuration name="Unittest initializationTest.testBCollateralForm" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_initializationTest_testassessmen - 2020.04.10 at 15h 09m 43s.xml">
-      <configuration name="Unittest initializationTest.testassessmen" configurationId="tests" />
+    <history-entry file="Unittest_riskzoneTest_testqareaCheck - 2020.04.17 at 16h 05m 07s.xml">
+      <configuration name="Unittest riskzoneTest.testqareaCheck" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_initializationTest_testbindSqucheck - 2020.04.10 at 14h 41m 12s.xml">
-      <configuration name="Unittest initializationTest.testbindSqucheck" configurationId="tests" />
+    <history-entry file="Unittest_riskzoneTest_testqareaCheck - 2020.04.17 at 16h 05m 43s.xml">
+      <configuration name="Unittest riskzoneTest.testqareaCheck" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_riskzoneTest_testdrawCir - 2020.04.10 at 16h 04m 53s.xml">
-      <configuration name="Unittest riskzoneTest.testdrawCir" configurationId="tests" />
+    <history-entry file="Unittest_riskzoneTest_testqareaCheck - 2020.04.17 at 16h 07m 08s.xml">
+      <configuration name="Unittest riskzoneTest.testqareaCheck" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_riskzoneTest_testdrawCir - 2020.04.10 at 16h 06m 17s.xml">
-      <configuration name="Unittest riskzoneTest.testdrawCir" configurationId="tests" />
+    <history-entry file="Unittest_riskzoneTest_testqareaCheck - 2020.04.17 at 16h 09m 17s.xml">
+      <configuration name="Unittest riskzoneTest.testqareaCheck" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_riskzoneTest_testdrawCir - 2020.04.10 at 16h 10m 14s.xml">
-      <configuration name="Unittest riskzoneTest.testdrawCir" configurationId="tests" />
+    <history-entry file="Unittests_in_initializationTest - 2020.04.17 at 14h 00m 30s.xml">
+      <configuration name="Unittests in initializationTest" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_riskzoneTest - 2020.04.10 at 14h 49m 14s.xml">
-      <configuration name="Unittests in riskzoneTest" configurationId="tests" />
+    <history-entry file="Unittests_in_initializationTest - 2020.04.17 at 14h 19m 10s.xml">
+      <configuration name="Unittests in initializationTest" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_riskzoneTest - 2020.04.10 at 15h 01m 10s.xml">
-      <configuration name="Unittests in riskzoneTest" configurationId="tests" />
+    <history-entry file="Unittests_in_initializationTest - 2020.04.17 at 14h 32m 45s.xml">
+      <configuration name="Unittests in initializationTest" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_riskzoneTest - 2020.04.10 at 16h 01m 46s.xml">
-      <configuration name="Unittests in riskzoneTest" configurationId="tests" />
+    <history-entry file="Unittests_in_initializationTest - 2020.04.17 at 14h 43m 56s.xml">
+      <configuration name="Unittests in initializationTest" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -953,10 +1064,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17200854" sideWeight="0.48784193" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1741453" sideWeight="0.48784193" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.321047" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -994,13 +1105,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="18" />
+      <option name="time" value="44" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/testcase/courseCommentTest.py" />
-    <entry file="file://$USER_HOME$/.PyCharm2016.3/system/python_stubs/-1597513624/time.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/selenium/webdriver/remote/switch_to.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="106">
@@ -1018,20 +1127,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testcase/courseCommTest.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/email/mime/text.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/mailText.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/selenium/webdriver/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1111,36 +1206,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/selenium/webdriver/support/wait.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="46" column="34" lean-forward="true" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/selenium/webdriver/support/expected_conditions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-89">
-          <caret line="292" column="8" lean-forward="false" selection-start-line="292" selection-start-column="8" selection-end-line="292" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/riskzoneModel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/process/initialBaseProc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119">
-          <caret line="58" column="62" lean-forward="true" selection-start-line="58" selection-start-column="62" selection-end-line="58" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/selenium/webdriver/remote/webelement.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
@@ -1175,14 +1240,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/process/baseProc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/unittest/case.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-110">
@@ -1191,59 +1248,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/excel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/demou.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="49" column="10" lean-forward="true" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/initializationTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="28" column="12" lean-forward="true" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/send_email.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-305">
-          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/pykeyboard/x11.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="106" column="13" lean-forward="false" selection-start-line="106" selection-start-column="13" selection-end-line="106" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/process/initializationProc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="168" column="50" lean-forward="true" selection-start-line="168" selection-start-column="50" selection-end-line="168" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/openWeb.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="48" column="20" lean-forward="true" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1251,19 +1259,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
           <caret line="7347" column="31" lean-forward="true" selection-start-line="7347" selection-start-column="31" selection-end-line="7347" selection-end-column="31" />
-          <folding>
-            <marker date="1582787668983" expanded="true" signature="182937:182973" ph="..." />
-            <marker date="1582787668983" expanded="true" signature="185838:185859" ph="..." />
-            <marker date="1582787668983" expanded="true" signature="186307:186325" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="563" column="26" lean-forward="false" selection-start-line="563" selection-start-column="26" selection-end-line="563" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1275,72 +1270,196 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/util/webdr.py">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/utrunner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="112" column="38" lean-forward="true" selection-start-line="112" selection-start-column="38" selection-end-line="112" selection-end-column="38" />
+        <state relative-caret-position="228">
+          <caret line="152" column="0" lean-forward="false" selection-start-line="152" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2016.3/system/python_stubs/-1597513624/_io.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="979" column="8" lean-forward="false" selection-start-line="979" selection-start-column="8" selection-end-line="979" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/riskzoneModel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/process/commonProc.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/荒谬！美议员要中国为1.6万美国人死亡“负责”.url">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/pykeyboard/x11.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
-          <caret line="227" column="8" lean-forward="false" selection-start-line="227" selection-start-column="8" selection-end-line="227" selection-end-column="8" />
-          <folding>
-            <element signature="e#15#30#0" expanded="true" />
-          </folding>
+          <caret line="181" column="13" lean-forward="false" selection-start-line="181" selection-start-column="13" selection-end-line="181" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="17" column="27" lean-forward="false" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+          <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/utrunner.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/selenium/webdriver/support/expected_conditions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="187" column="12" lean-forward="true" selection-start-line="187" selection-start-column="12" selection-end-line="187" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/excel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="29" column="4" lean-forward="false" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/selenium/webdriver/support/wait.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-548">
+          <caret line="26" column="8" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/process/baseProc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="977" column="0" lean-forward="false" selection-start-line="977" selection-start-column="0" selection-end-line="977" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/process/initialBaseProc.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="152" column="0" lean-forward="false" selection-start-line="152" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
+          <caret line="71" column="62" lean-forward="true" selection-start-line="71" selection-start-column="62" selection-end-line="71" selection-end-column="62" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/riskzoneTest.py">
+    <entry file="file://$PROJECT_DIR$/util/webdr.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="121" column="13" lean-forward="false" selection-start-line="121" selection-start-column="13" selection-end-line="121" selection-end-column="13" />
+        <state relative-caret-position="166">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/process/initializationProc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="429" column="11" lean-forward="true" selection-start-line="429" selection-start-column="11" selection-end-line="429" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/email/mime/text.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/send_email.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/process/riskzoneBaseProc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3379">
+          <caret line="362" column="8" lean-forward="false" selection-start-line="362" selection-start-column="8" selection-end-line="362" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/mailText.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="41" lean-forward="true" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/all_tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="79" column="14" lean-forward="true" selection-start-line="79" selection-start-column="14" selection-end-line="79" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/initializationTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-299">
+          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/openWeb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="57" column="26" lean-forward="false" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/process/commonProc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="38" column="26" lean-forward="true" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+          <folding>
+            <element signature="e#15#30#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/process/riskzoneProc.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
-          <caret line="535" column="8" lean-forward="false" selection-start-line="535" selection-start-column="8" selection-end-line="535" selection-end-column="8" />
+          <caret line="624" column="8" lean-forward="false" selection-start-line="624" selection-start-column="8" selection-end-line="624" selection-end-column="8" />
           <folding>
             <element signature="e#70#134#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/process/riskzoneBaseProc.py">
+    <entry file="file://$PROJECT_DIR$/testcase/riskzoneTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="400" column="31" lean-forward="false" selection-start-line="400" selection-start-column="31" selection-end-line="400" selection-end-column="31" />
-          <folding>
-            <element signature="e#373#395#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/all_tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="23" column="36" lean-forward="false" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+        <state relative-caret-position="194">
+          <caret line="170" column="23" lean-forward="true" selection-start-line="170" selection-start-column="23" selection-end-line="170" selection-end-column="23" />
           <folding />
         </state>
       </provider>

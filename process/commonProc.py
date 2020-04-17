@@ -33,7 +33,7 @@ class commonProc(object):
 
 # 登录页toast捕捉
     def findToast(self,driver,message):
-        time.sleep(2)
+        time.sleep(3)
         ele = driver.find_element_by_class_name("el-message__content").text
         # me=message.decode("utf-8")
         if ele == message:
@@ -211,13 +211,13 @@ class commonProc(object):
     def waitInvisib(self,driver,identifyBy, c):
         try:
             if identifyBy == "id":
-                WebDriverWait(driver, 2).until(EC.invisibility_of_element_located((By.ID, c)))
+                WebDriverWait(driver, 0.6).until(EC.invisibility_of_element_located((By.ID, c)))
             elif identifyBy == "xpath":
-                WebDriverWait(driver, 2).until(EC.invisibility_of_element_located((By.XPATH, c)))
+                WebDriverWait(driver, 0.6).until(EC.invisibility_of_element_located((By.XPATH, c)))
             elif identifyBy == "class":
-                WebDriverWait(driver, 2).until(EC.invisibility_of_element_located((By.CLASS_NAME, c)))
+                WebDriverWait(driver, 0.6).until(EC.invisibility_of_element_located((By.CLASS_NAME, c)))
             elif identifyBy == "css":
-                WebDriverWait(driver, 2).until(EC.invisibility_of_element_located((By.CSS_SELECTOR, c)))
+                WebDriverWait(driver, 0.6).until(EC.invisibility_of_element_located((By.CSS_SELECTOR, c)))
             return True
         except:
             return False
@@ -243,16 +243,25 @@ class commonProc(object):
             return flag
 
     # 等待元素加载
+    def waitPage(self, driver, xpath):
+        try:
+            # WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.XPATH, xpath)))
+            WebDriverWait(driver, 10).until(EC.visibility_of_all_elements_located((By.XPATH, xpath)))
+            return True
+        except:
+            return False
+
+
+    #等待进入页面
+    def waitintopage(self,driver,xpath):
+        if not self.waitPage(driver,xpath):
+            self.messageShow('未进入页面')
+
+
+    # 等待元素加载
     def waitElemByXpath(self,driver,xpath):
         try:
             WebDriverWait(driver, 20,2).until(EC.presence_of_element_located((By.XPATH, xpath)))
-        except:
-            self.messageShow('元素没加载出来')
-
-    # 等待元素加载
-    def waitForPage(self,driver,xpath):
-        try:
-            WebDriverWait(driver, 20,5).until(EC.presence_of_element_located((By.XPATH, xpath)))
         except:
             self.messageShow('元素没加载出来')
 
@@ -279,9 +288,10 @@ class commonProc(object):
 
     # 下拉菜单并选中
     def dropDownBox(self, driver, xpath, text):
-        wd.clickByXpath(driver, xpath)
+        self.forclick(driver,xpath)
         time.sleep(1)
         wd.clickByXpath(driver, '//span[contains(text(),"' + text + '")]')
+
 
     # 键盘模拟输入,下键+确定
     def keyBoard(self):
@@ -326,7 +336,7 @@ class commonProc(object):
 
     # 进入应用中心
     def intoCenter(self, driver):
-        wd.clickByXpath(driver, ex.xpathCon('workbench'))
+        self.forclick(driver, ex.xpathCon('workbench'))
         self.waitAmoment()
         windows = driver.window_handles
         driver.switch_to.window(windows[0])
@@ -336,6 +346,8 @@ class commonProc(object):
     def account(self, driver):
         self.tabNewpage(driver, 'https://www.51safety.com.cn/enterprise/orgManage')
         self.waitAmoment()
+        #组织架构
+        self.xpathExist(driver,'/html/body/div/section/div/div/div[1]/span[3]/span')
         if self.findItem(driver, '控制台') == False:
             self.messageShow('未进入控制台!')
         if self.findItem(driver, '删除托管') == False:
@@ -362,7 +374,9 @@ class commonProc(object):
 
     # 切换为测试账号
     def changeTest(self, driver):
+        self.waitAmoment()
         self.tapWeb(driver)
+        self.update(driver)
         wd.clickByXpath(driver, ex.xpathCon('setInf'))
         self.waitAmoment()
         wd.aboveByXpath(driver, ex.xpathCon('accountChange'))
@@ -404,4 +418,79 @@ class commonProc(object):
         ele=wd.findElsXpath(driver,'/html/body/div[1]/div/section/main/div/section/main/div/div/div[2]/div/div/div[1]/div[4]/div[2]/table/tbody/tr')
         a=str(ele).split('>,')
         print(len(a))
+
+    #有升级通知时的处理
+    def update(self,driver):
+        if self.findItem(driver,'【升级通知】'):
+            wd.clickByXpath(driver,'/html/body/header/div/div[2]/div[2]/i')
+
+    #默认xpath点击
+    def forclick(self,driver,xpath):
+        self.xuhuanclick(driver,'xpath',xpath)
+
+    #css点击
+    def forclickcss(self,driver,css):
+        self.xuhuanclick(driver,'css',css)
+
+    #id点击
+    def forclickid(self,driver,id):
+        self.xuhuanclick(driver,'id',id)
+
+    # 循环点击,最多四次结束
+    def xuhuanclick(self,driver,identy,c):
+        flat = 0
+        while 1:
+            try:
+                if identy=='css':
+                    wd.clickByCss(driver, c)
+                elif identy=='xpath':
+                    wd.clickByXpath(driver,c)
+                elif identy=='id':
+                    wd.clickById(driver,c)
+                break
+            except:
+                flat = flat + 1
+                if flat != 4:
+                    time.sleep(2)
+                    continue
+                else:
+                    self.messageShow('已循环8秒')
+                    break
+
+    #循环检查xpath是否存在
+    def xpathExist(self,driver,xpath):
+        flat = 0
+        while 1:
+            if self.isElement(driver,'xpath',xpath):
+                break
+            else:
+                flat = flat + 1
+                if flat!=5:
+                    time.sleep(2)
+                    continue
+                else:
+                    self.messageShow('已循环10秒')
+                    break
+
+    #循环检查css是否存在
+    def cssExist(self,driver,css):
+        flat = 0
+        while 1:
+            if self.isElement(driver,'css',css):
+                break
+            else:
+                flat = flat + 1
+                if flat!=5:
+                    time.sleep(2)
+                    continue
+                else:
+                    self.messageShow('已循环10秒')
+                    break
+
+
+
+
+
+
+
 

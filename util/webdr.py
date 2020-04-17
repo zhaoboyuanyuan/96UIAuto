@@ -7,7 +7,7 @@
 from selenium import webdriver
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
-
+from selenium.webdriver.support.wait import WebDriverWait
 
 
 class webdr(object):
@@ -18,6 +18,9 @@ class webdr(object):
 
     def clickByXpath(self,driver,xpath):
         self.findXpath(driver,xpath).click()
+
+    def clickWtXpath(self,driver,xpath):
+        WebDriverWait(driver, 10).until(lambda driver: driver.find_element_by_xpath(xpath)).click()
 
     def clickByName(self,driver,name):
         self.findName(driver,name).click()

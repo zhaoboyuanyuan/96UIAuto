@@ -18,7 +18,7 @@ class riskzoneTest(unittest.TestCase):
     def setUp(self):
         o.writeSetUp()
         self.driver = o.getDr()
-        self.driver.implicitly_wait(20)
+        self.driver.implicitly_wait(10)
         com.initData(self.driver)
 
 
@@ -146,26 +146,35 @@ class riskzoneTest(unittest.TestCase):
         u"""方形图形绑定区域校验"""
         rz.bindSqucheck(self.driver)
 
-    # 25.椭圆形绑定区域
+    #25.椭圆形绑定区域
     def testqbindCir(self):
         u"""椭圆形绑定区域"""
         rz.bindCir(self.driver)
 
-    # 26.椭圆形绑定区域校验
+    #26.椭圆形绑定区域校验
     def testqbindCircheck(self):
         u"""椭圆形绑定区域校验"""
         rz.bindCircheck(self.driver)
 
-    # 27.风险点绑定
+    #27.风险点绑定
     def testqbindPt(self):
         u"""风险点绑定"""
         rz.bindPt(self.driver)
 
-    # 28.风险点绑定区域校验
+    #28.风险点绑定区域校验
     def testqbindPtcheck(self):
         u"""风险点绑定区域校验"""
         rz.bindPtcheck(self.driver)
 
+    #29.区域校验风险等级
+    def testqareaCheck(self):
+        u"""区域校验风险等级"""
+        rz.areaCheck(self.driver)
+
+    #30.点校验风险等级
+    def testqpointCheck(self):
+        u"""点校验风险等级"""
+        rz.pointCheck(self.driver)
 
 
 if __name__ == '__main__':

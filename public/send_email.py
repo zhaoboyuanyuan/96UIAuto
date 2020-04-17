@@ -23,19 +23,19 @@ class send_email():
     #发送一般默认内容为text和添加附件
     def send(self):
         # 发送邮箱服务器
-        smtpserver = 'smtp.qq.com'
-        # smtpserver = 'smtp.163.com'
+        # smtpserver = 'smtp.qq.com'
+        smtpserver = 'smtp.163.com'
 
         # 发送邮箱用户/密码(登录邮箱操作)
         # user = "guchengcai@163.com"
         # password = "wulian123"
 
-        # user = "15951644332@163.com"
-        # password = "zhaoboyuan54321"
+        user = "15951644332@163.com"
+        password = "zhaoboyuan54321"
 
-        user = "1309817607@qq.com "
+        # user = "1309817607@qq.com "
         # password = "fesnswauckbnjjgc"
-        password = "wmlqmrikrkkwfjfd"
+        # password = "wmlqmrikrkkwfjfd"
 
 
         # 发送邮箱
@@ -96,7 +96,7 @@ class send_email():
         html = MIMEText(mail_body, _subtype='html', _charset='utf-8')
         return html
 #
-if __name__ == '__main__':
-    send_email().send()
+# if __name__ == '__main__':
+#     send_email().send()
 
 

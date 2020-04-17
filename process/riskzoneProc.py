@@ -46,7 +46,7 @@ class riskzoneProc(baseProc):
         elif num == 3: #新建风险点清单
             self.riskPoints(driver)
         elif num==4:
-            com.clickOnText(driver,'确定')
+            com.forclick(driver,"//*[contains(text(),'确定')]")
             com.waitElemByXpath(driver,ex.xpathCon('allButton')) #等待所有按钮显示
         elif num==5:
             if not com.findItem(driver,rz.text):
@@ -110,8 +110,7 @@ class riskzoneProc(baseProc):
         elif num==33: #添加
             rb.build(driver)
         elif num==34: #新建成功
-            if not rb.findToast(driver,rz.text):
-                com.messageAndScreen(driver,rz.message)
+            self.newBuild(driver,rz.message)
         elif num == 35: #画不规则
             rb.drawIr(driver)
         elif num == 36: #画方形
@@ -126,7 +125,14 @@ class riskzoneProc(baseProc):
             rb.checkbind(driver,1)
         elif num == 41: #检查绑定
             rb.checkbind(driver,2)
-
+        elif num == 42: #查看
+            rb.seeItem(driver)
+        elif num == 43: #找文字列表
+            com.findItems(driver,rz.text)
+        elif num == 44: #检查风险点
+            rb.checkpo(driver,rz.text,rz.message)
+        elif num == 45: #检查绑定
+            rb.checkbind(driver,3)
 
 
 
@@ -142,30 +148,29 @@ class riskzoneProc(baseProc):
             driver.get('https://www.51safety.com.cn/safetyapp/entRisk/view')
         if not com.waitInvisib(driver,'xpath',ex.xpathCon('setInf')):
             com.messageShow('首页未切换')
+        com.update(driver)
+
 
     #点击添加
     def add(self,driver):
-        com.waitAmoment()
-        com.waitAndClickByCss(driver,'i[class="iconfont icon-xinjian"]')
+        com.forclickcss(driver,'i[class="iconfont icon-xinjian"]')
         # wd.clickByCss(driver,'i[class="iconfont icon-xinjian"]')
         com.waitAmoment()
 
     # 区域固有风险评估页点击添加
     def add1(self,driver):
-        com.waitAmoment()
-        com.waitForPage(driver,ex.xpathCon('QuYuFengXianadd'))
-        wd.clickByXpath(driver,ex.xpathCon('QuYuFengXianadd'))
+        com.forclick(driver,ex.xpathCon('QuYuFengXianadd'))
         com.waitAmoment()
 
     # 区域控制风险评估点击添加
     def add2(self,driver):
-        com.waitAmoment()
-        wd.clickByXpath(driver,ex.xpathCon('GuYouFengXianadd'))
+        com.forclick(driver,ex.xpathCon('GuYouFengXianadd'))
         com.waitAmoment()
 
 
     #填写评估单元表格
     def evaluation(self,driver,text):
+        com.xpathExist(driver,ex.xpathCon('epname1'))
         #企业名称
         com.dropDownBox(driver,ex.xpathCon('epname1'),'测试企业')
         #区域/场所/单元名称
@@ -200,7 +205,7 @@ class riskzoneProc(baseProc):
         com.waitAmoment()
         com.tapWeb(driver)
         #风险点基本信息
-        wd.clickByXpath(driver,ex.xpathCon('fenxiandianjiben'))
+        com.forclick(driver,ex.xpathCon('fenxiandianjiben'))
         sleep(1)
         com.keyBoard()
         # com.waitAndClickByCss(driver, 'li[class="el-select-dropdown__item selected"][title="测试企业"]')
@@ -226,7 +231,6 @@ class riskzoneProc(baseProc):
 
     #填写区域固有风险评估
     def enterInherent(self,driver,text):
-        # com.waitElemVisibByXpath(driver,'/html/body/div[1]/div/section/main/div/div[2]/div/div[2]/div[1]/div/div[1]/div[2]/div[1]/div[2]/div/div/div/div/input')
         com.waitElemVisibByXpath(driver,ex.xpathCon('epname2'))
         #企业名称
         com.dropDownBox(driver,ex.xpathCon('epname2'),'测试企业')
@@ -263,12 +267,12 @@ class riskzoneProc(baseProc):
         com.dropDownBox(driver,ex.xpathCon('qiyebianjie'),'无或有1个低密度人员场所')
         #点击确定
         com.clickOnText(driver,'确定')
-        com.waitForPage(driver,ex.xpathCon('newCase'))
+        com.waitAmoment()
 
 
     #检查LSR值
     def checkLSR(self,driver,message):
-        com.waitAmoment()
+        com.waitSuMom(driver)
         L=wd.findXpath(driver,ex.xpathCon('valueL')).text
         S=wd.findXpath(driver,ex.xpathCon('valueS')).text
         R=wd.findXpath(driver, ex.xpathCon('valueR')).text
@@ -291,16 +295,17 @@ class riskzoneProc(baseProc):
 
     #填写区域控制风险评估
     def enterConRi(self,driver):
-        com.waitForPage(driver,ex.xpathCon('epname3'))
+        com.tapWeb(driver)
         #企业名称
-        com.dropDownBox(driver,ex.xpathCon('epname3'),'测试企业')
+        try:
+            com.dropDownBox(driver,ex.xpathCon('epname3'),'测试企业')
+        except:
+            com.tapWeb(driver)
+            com.dropDownBox(driver, ex.xpathCon('epname3'), '测试企业')
         #风险点名称
         wd.clickByXpath(driver, ex.xpathCon('rickName1'))
-        if com.elevisibility(driver,'xpath','//span[contains(text(),"交通局")]'):
-            wd.clickByXpath(driver, '//span[contains(text(),"交通局")]')
-            com.waitAmoment()
-        else:
-            com.messageShow('未显示交通局')
+        xp='//span[contains(text(),"交通局")]'
+        com.forclick(driver, xp)
         #评估类型
         com.dropDownBox(driver,ex.xpathCon('pingguleixing'),'定期风险评估')
         com.waitAmoment()
@@ -313,11 +318,20 @@ class riskzoneProc(baseProc):
     #填写LES
     def enterLES(self,driver):
         #点击添加按钮
-        wd.clickByXpath(driver,ex.xpathCon('LECadd'))
+        if com.isElement(driver,'xpath',ex.xpathCon('LECadd')):
+            wd.clickByXpath(driver,ex.xpathCon('LECadd'))
+        else:
+            com.dragXpath(driver, ex.xpathCon('houguomoni'))
+            com.waitAmoment()
+            wd.clickByXpath(driver, ex.xpathCon('LECadd'))
         com.waitAmoment()
         com.tapWeb(driver)
         #事故发生的可能性
-        com.dropDownBox(driver,ex.xpathCon('shigukeneng'),'完全可能预料')
+        try:
+            com.dropDownBox(driver,ex.xpathCon('shigukeneng'),'完全可能预料')
+        except:
+            com.tapWeb(driver)
+            com.dropDownBox(driver, ex.xpathCon('shigukeneng'), '完全可能预料')
         #暴露于危险环境的频率
         com.dropDownBox(driver,ex.xpathCon('baolupinglv'),'每月一次暴露')
         #事故后果严重程度
@@ -333,7 +347,11 @@ class riskzoneProc(baseProc):
         com.waitAmoment()
         com.tapWeb(driver)
         #可能发生的事故类型
-        com.dropDownBox(driver,ex.xpathCon('kenengshiguleixing'),'火灾')
+        try:
+            com.dropDownBox(driver,ex.xpathCon('kenengshiguleixing'),'火灾')
+        except:
+            com.tapWeb(driver)
+            com.dropDownBox(driver, ex.xpathCon('kenengshiguleixing'), '火灾')
         #可能性级别
         com.clickOnText(driver, '可能发生的事故类型')
         com.dropDownBox(driver,ex.xpathCon('kennegxingjibei'),'有充分、有效的防范、')
@@ -352,7 +370,11 @@ class riskzoneProc(baseProc):
         com.waitAmoment()
         com.tapWeb(driver)
         #可能发生的事故类型
-        com.dropDownBox(driver,ex.xpathCon('kenengshiguleixing'),'火灾')
+        try:
+            com.dropDownBox(driver,ex.xpathCon('kenengshiguleixing'),'火灾')
+        except:
+            com.tapWeb(driver)
+            com.dropDownBox(driver, ex.xpathCon('kenengshiguleixing'), '火灾')
         #控制措施的状态
         com.clickOnText(driver, '可能发生的事故类型')
         com.dropDownBox(driver,ex.xpathCon('kongzhicuoshi'),'无控制措施')
@@ -369,20 +391,23 @@ class riskzoneProc(baseProc):
         com.waitAmoment()
         #点击第一项
         wd.clickByXpath(driver,ex.xpathCon('diyixiang'))
-        com.waitAmoment()
-        #LS法评估等级
-        valueLS=wd.findXpath(driver,ex.xpathCon('LSfapinggu')).text
-        #LEC法评估等级
-        valueLEC=wd.findXpath(driver,ex.xpathCon('LECfapinggu')).text
-        #MES法评估等级
-        valueMES=wd.findXpath(driver,ex.xpathCon('MESfapinggu')).text
-        #风险点固有等级
-        valueRick=wd.findXpath(driver,ex.xpathCon('guyoudengji')).text
-        #管控等级
-        valueCon=wd.findXpath(driver,ex.xpathCon('guangkongdengji')).text
-        print(valueLS,valueLEC,valueMES,valueRick,valueCon)
-        if valueLS!='低风险' or valueLEC!='较大风险' or valueMES!='低风险' or valueRick!='较大风险' or valueCon!='车间级':
-            com.messageAndScreen(driver,'计算风险等级失败')
+        com.waitSuMom(driver)
+        try:
+            #LS法评估等级
+            valueLS=wd.findXpath(driver,ex.xpathCon('LSfapinggu')).text
+            #LEC法评估等级
+            valueLEC=wd.findXpath(driver,ex.xpathCon('LECfapinggu')).text
+            #MES法评估等级
+            valueMES=wd.findXpath(driver,ex.xpathCon('MESfapinggu')).text
+            #风险点固有等级
+            valueRick=wd.findCss(driver,'.vertical > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > span:nth-child(1)').text
+            #管控等级
+            valueCon=wd.findXpath(driver,ex.xpathCon('guangkongdengji')).text
+            print(valueLS,valueLEC,valueMES,valueRick,valueCon)
+            if valueLS!='低风险' or valueLEC!='较大风险' or valueMES!='低风险' or valueRick!='低风险' or valueCon!='车间级':
+                com.messageAndScreen(driver,'计算风险等级失败')
+        except:
+            com.messageAndScreen(driver,'未自动生成评估方法')
 
 
     #例子
@@ -406,8 +431,7 @@ class riskzoneProc(baseProc):
     #之后的操作
     def thenMende(self, driver,txt,message):
         self.intopage(driver,3)
-        com.waitAmoment()
-        wd.clickByXpath(driver,ex.xpathCon('theFirst'))
+        com.forclick(driver,ex.xpathCon('theFirst'))
         com.waitAmoment()
         if com.getTextByXpath(driver,ex.xpathCon('fengxianzhi'))!=txt:
             com.messageShow(message)
@@ -415,12 +439,18 @@ class riskzoneProc(baseProc):
     #事故模拟之后的操作
     def thenMende1(self, driver,txt,message):
         self.intopage(driver,3)
-        com.waitAmoment()
-        wd.clickByXpath(driver,ex.xpathCon('shoukuang'))
+        com.forclick(driver,ex.xpathCon('shoukuang'))
         com.waitAmoment()
         com.clickOnText(driver,'历史记录')
         com.waitAmoment()
         if not com.findItem(driver,txt):
+            com.messageAndScreen(driver,message)
+
+    #新建四色图上传图片检查图片是否存在
+    def newBuild(self,driver,message):
+        css = '.content-container > svg:nth-child(1) > image:nth-child(1)'
+        com.cssExist(driver, css)
+        if not com.isElement(driver, 'css', css):
             com.messageAndScreen(driver,message)
 
 
@@ -516,8 +546,7 @@ class riskzoneProc(baseProc):
 
     #16.查看导入图片
     def picture(self,driver):
-        rz.text = '新建成功'
-        rz.message = '未找到新建成功'
+        rz.message = '未新建成功'
         self.basePr(driver, [31,32,33,34])
 
     #17.画多边形图形
@@ -590,7 +619,20 @@ class riskzoneProc(baseProc):
     def bindPtcheck(self,driver):
         rz.text = '交通局'
         rz.message = '未检查到浮出的信息!'
-        self.basePr(driver, [31, 32, 33,38,39,40,5])
+        self.basePr(driver, [31, 32, 33,38,39,45,5])
+
+    #29.区域校验风险等级
+    def areaCheck(self,driver):
+        rz.text = ['低风险']
+        rz.message = '未检查到区域校验风险等级!'
+        self.basePr(driver, [31, 32, 33,37, 39,41,42,43])
+
+    #30.点校验风险等级
+    def pointCheck(self,driver):
+        rz.text = '低风险'
+        rz.message = '未检查到低风险!'
+        self.basePr(driver, [31, 32, 33,38,39,40,42,44])
+
 
 
 

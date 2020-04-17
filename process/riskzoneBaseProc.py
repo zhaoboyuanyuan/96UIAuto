@@ -34,12 +34,11 @@ class riskzoneBaseProc(object):
 
     #填写蒙德法表格
     def enterMen(self,driver):
-
         #点击添加
-        wd.clickByXpath(driver,ex.xpathCon('mondadd'))
+        com.forclick(driver,ex.xpathCon('mondadd'))
         com.waitAmoment()
         #点击保存
-        wd.clickByXpath(driver,ex.xpathCon('save1'))
+        com.forclick(driver,ex.xpathCon('save1'))
         com.waitAmoment()
         #点击顶栏蒙德法
         wd.clickByXpath(driver,ex.xpathCon('monddinglan'))
@@ -67,12 +66,16 @@ class riskzoneBaseProc(object):
         wd.enterById(driver,ex.idCon('configurationHeight'),'22')
 
         #点击下一步
-        wd.clickById(driver,ex.idCon('nextStep'))
+        com.forclickid(driver,ex.idCon('nextStep'))
         com.waitAmoment()
         com.tapWeb(driver)
         value='4'
         #单元物质系数
-        wd.enterById(driver,'MF',value)
+        try:
+            wd.enterById(driver,'MF',value)
+        except:
+            com.tapWeb(driver)
+            wd.enterById(driver, 'MF', value)
         #特殊物质危险系数
         wd.enterById(driver,ex.idCon('specialSubStanceHazardousCoefficient'),value)
         #一般工艺危险系数
@@ -125,10 +128,14 @@ class riskzoneBaseProc(object):
         #拖拉页面到Ls
         com.dragXpath(driver,ex.xpathCon('LSkuang'))
         #点击添加按钮
-        wd.clickByXpath(driver,ex.xpathCon('daohuaxueadd'))
+        try:
+            wd.clickByXpath(driver,ex.xpathCon('daohuaxueadd'))
+        except:
+            com.dragXpath(driver, ex.xpathCon('LSkuang'))
+            wd.clickByXpath(driver, ex.xpathCon('daohuaxueadd'))
         com.waitAmoment()
         # 点击保存
-        wd.clickByXpath(driver, ex.xpathCon('save1'))
+        com.forclick(driver, ex.xpathCon('save1'))
         com.waitAmoment()
         #点击道化学按钮
         wd.clickByXpath(driver,ex.xpathCon('daohuaxueanniu'))
@@ -140,13 +147,18 @@ class riskzoneBaseProc(object):
         wd.clickByXpath(driver,ex.xpathCon('add1'))
         com.waitAmoment()
         com.tapWeb(driver)
-        sleep(2)
 
         value='333'
         #评价物质名称
-        wd.clickById(driver,ex.idCon('pjwzmc'))
-        sleep(1)
-        com.clickOnText(driver,'甲醇')
+        try:
+            com.forclickid(driver,ex.idCon('pjwzmc'))
+            sleep(1)
+            com.clickOnText(driver,'甲醇')
+        except:
+            com.tapWeb(driver)
+            com.forclickid(driver, ex.idCon('pjwzmc'))
+            sleep(1)
+            com.clickOnText(driver, '甲醇')
         #物质质量(kg)
         wd.enterById(driver,ex.idCon('wzzl'),value)
         #原始成本(万元)
@@ -175,14 +187,18 @@ class riskzoneBaseProc(object):
         # 拖拉页面到Ls
         com.dragXpath(driver, ex.xpathCon('LSkuang'))
         # 点击添加按钮
-        wd.clickByXpath(driver, ex.xpathCon('shiguadd'))
+        try:
+            wd.clickByXpath(driver, ex.xpathCon('shiguadd'))
+        except:
+            com.dragXpath(driver, ex.xpathCon('LSkuang'))
+            wd.clickByXpath(driver, ex.xpathCon('shiguadd'))
         com.waitAmoment()
         com.tapWeb(driver)
         #点击保存
-        wd.clickByXpath(driver,ex.xpathCon('save1'))
+        com.forclick(driver,ex.xpathCon('save1'))
         com.waitAmoment()
         #点击事故模拟按钮
-        wd.clickByXpath(driver,ex.xpathCon('shiguanniu'))
+        com.forclick(driver,ex.xpathCon('shiguanniu'))
         com.waitAmoment()
         com.tapWeb(driver)
         wd.clickByXpath(driver,ex.xpathCon('add2'))
@@ -196,13 +212,28 @@ class riskzoneBaseProc(object):
         wd.clickByXpath(driver,'/html/body/div/div/div/div[1]/div[5]/div/div[2]/div/div/div[2]/div/div[1]/button')
         k1 = pykeyboard.PyKeyboard()
         k1.tap_key(k1.shift_key)
-        sleep(2)
+        sleep(1)
         k1.type_string(r'D:\code\2.png')
-        sleep(2)
-        k1.tap_key(k1.space_key)
+        sleep(1)
+        k1.press_key(k1.control_key)
+        k1.tap_key('A')
+        k1.release_key(k1.control_key)
         sleep(2)
         k1.tap_key(k1.enter_key)
-        sleep(2)
+        com.waitAmoment()
+
+
+    def picpl(self,driver):
+        try:
+            # self.findToast(driver, 'el-message el-message--error', '请选择要上传的图片')
+            ele = driver.find_element_by_class_name('el-message el-message--error').text
+            if ele=='请选择要上传的图片':
+                return True
+            else:
+                return False
+        except:
+            return False
+
 
 
     # 检查计算值
@@ -224,6 +255,10 @@ class riskzoneBaseProc(object):
         wd.clickById(driver,ex.idCon('basicParameterBtn'))
         com.waitAmoment()
         com.tapWeb(driver)
+        try:
+            WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID,ex.idCon('regionInput') )))
+        except:
+            com.messageShow('未进入页面')
         #所在区域
         wd.clickById(driver,ex.idCon('regionInput'))
         com.clickOnText(driver,'南京')
@@ -300,7 +335,6 @@ class riskzoneBaseProc(object):
             com.messageAndScreen(driver,message)
 
 
-
     # 点击提交
     def clickSub(self,driver):
         self.shiguleixingmoni(driver)
@@ -313,31 +347,31 @@ class riskzoneBaseProc(object):
     def earliest(self,driver):
         if com.findItem(driver,'暂无数据，快去添加图层吧~'):
             #点击添加图层
-            wd.clickByXpath(driver,'/html/body/div/div/div/div[1]/div[1]/div[1]/div/div[1]/div/div/button/span')
+            wd.clickByXpath(driver,ex.xpathCon('addtucen'))
         else:
-            wd.aboveByXpath(driver,'/html/body/div/div/div/div[1]/div[1]/div[1]/div/div[1]/div/div/div[1]/div[2]/div[1]/div[1]/div/div')
+            wd.aboveByXpath(driver,ex.xpathCon('xiaobishang'))
             com.waitAmoment()
             #点小笔
-            wd.clickByXpath(driver,'/html/body/div/div/div/div[1]/div[1]/div[1]/div/div[1]/div/div/div[1]/div[2]/div[1]/div[1]/div/div/i')
+            wd.clickByXpath(driver,ex.xpathCon('axiaob'))
             #添加图层
-            wd.aboveByXpath(driver,'/html/body/div/div/div/div[1]/div[1]/div[1]/div/div[1]/div/div/div[2]/ul/li[1]')
+            wd.aboveByXpath(driver,ex.xpathCon('tucen'))
             #添加上方图层
-            wd.clickByXpath(driver,'/html/body/div/div/div/div[1]/div[1]/div[1]/div/div[1]/div/div/div[2]/ul/li[1]/ul/li[1]')
+            wd.clickByXpath(driver,ex.xpathCon('shangfangtc'))
         com.tapWeb(driver)
 
     #添加
     def build(self,driver):
         #名称
-        wd.enterByXpath(driver,'/html/body/div/div/div/div[1]/div[5]/div/div[2]/div/div/form/div/div/div[1]/input',com.getFourRandomNum())
+        wd.enterByXpath(driver,ex.xpathCon('mingcheng'),com.getFourRandomNum())
         #上传
         self.upload(driver)
         #点击确定
-        wd.clickByXpath(driver,'/html/body/div/div/div/div[1]/div[5]/div/div[2]/div/div/div[4]/button[2]')
+        wd.clickByXpath(driver,ex.xpathCon('queding1'))
 
     # 新建成功toast捕捉
-    def findToast(self, driver, text):
-        sleep(2)
-        ele = driver.find_element_by_class_name("el-message__content").text
+    def findToast(self, driver,classname, text):
+        sleep(3)
+        ele = driver.find_element_by_class_name(classname).text
         if ele == text:
             return True
         else:
@@ -364,9 +398,8 @@ class riskzoneBaseProc(object):
 
     #画不规则
     def drawIr(self,driver):
-        com.waitAmoment()
         #点击不规则按钮
-        wd.clickByXpath(driver,'/html/body/div[1]/div/div/div[1]/div[2]/div/div[1]/div[6]/i')
+        com.forclick(driver,ex.xpathCon('buguize'))
         self.leftclick(driver,x,y)
         sleep(1)
         self.leftclick(driver,x,y-100)
@@ -374,13 +407,15 @@ class riskzoneBaseProc(object):
         self.leftclick(driver,x,y+100)
         sleep(1)
         self.doubleclick(driver,x-400,y)
+        sleep(1)
         #右击原点
         self.rightclick(driver,0,0)
 
+
     #画方形
     def drawSquare(self,driver):
-        com.waitAmoment()
-        wd.clickByXpath(driver, '/html/body/div[1]/div/div/div[1]/div[2]/div/div[1]/div[2]/i')
+        #方形
+        com.forclick(driver, ex.xpathCon('fangxing'))
         self.leftHold(driver,x,y,100)
         sleep(1)
         # 右击原点
@@ -388,42 +423,65 @@ class riskzoneBaseProc(object):
 
     #画椭圆形
     def drawCircle(self,driver):
-        com.waitAmoment()
         # 点击椭圆形按钮
-        wd.clickByXpath(driver, '/html/body/div[1]/div/div/div[1]/div[2]/div/div[1]/div[4]/i')
+        com.forclick(driver, ex.xpathCon('tuoyuan'))
         sleep(1)
-        self.leftHold(driver,x,y,50)
+        position = driver.get_window_position()
+        # 打印窗口坐标
+        a=position["x"]+x
+        b=position["y"]+y
+        self.leftHold(driver,a,b,40)
         sleep(1)
         # 右击原点
         self.rightclick(driver, -50, -50)
 
+
     #打点
     def drawPoint(self,driver):
-        com.waitSuMom(driver)
-        wd.clickByXpath(driver, '/html/body/div[1]/div/div/div[1]/div[2]/div/div[1]/div[10]/i')
+        #风险点
+        com.forclick(driver, ex.xpathCon('fengxiandi'))
         self.leftclick(driver,x,y)
         com.waitAmoment()
         # 右击原点
         self.rightclick(driver, 0, 0)
+        sleep(1)
 
     #绑定区域
     def bindTu(self,driver):
         #点击绑定
-        wd.clickByXpath(driver,'/html/body/div[1]/div/div/div[1]/div[2]/div/ul/li[1]')
+        wd.clickByXpath(driver,ex.xpathCon('bind'))
         com.waitAmoment()
         # wd.clickByXpath(driver,'/html/body/div[1]/div/div/div[1]/div[3]/div[1]/div[2]/div/div[1]/div[2]/div[1]/div[4]/div[2]/table/tbody/tr[1]/td[1]/div')
         com.clickOnText(driver,'交通局')
         #点击保存
-        wd.clickByXpath(driver,'/html/body/div[1]/div/div/div[1]/div[3]/div[1]/div[2]/div/div[1]/div[3]/a[1]')
+        wd.clickByXpath(driver,ex.xpathCon('save2'))
 
     #检查绑定
     def checkbind(self,driver,index):
         if index==1:
-            self.leftclick(driver,0,0)
+            self.rightclick(driver,0,0)
         elif index==2:
-            self.leftclick(driver,-50, -50)
+            self.rightclick(driver,-50, -50)
+        elif index==3:
+            self.leftclick(driver,0,0)
         else:
             com.messageShow('index输入有误')
+        sleep(2)
+
+    #查看
+    def seeItem(self,driver):
+        #点击查看
+        com.forclick(driver,ex.xpathCon('bind'))
+        com.waitAmoment()
+
+    #检查风险点
+    def checkpo(self,driver,text,message):
+        te=com.getTextByXpath(driver,ex.xpathCon('kzfxdj'))
+        if te!=text:
+            com.messageAndScreen(driver,message)
+
+
+
 
 
 

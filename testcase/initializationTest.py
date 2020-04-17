@@ -56,14 +56,21 @@ class initializationTest(unittest.TestCase):
         u"""周围环境表格校验为数字"""
         init.checkCollMath(self.driver)
 
-    # 8.#切回管理员，测试帐号赋值测试企业，（编辑测试帐号）--用户扩展信息
-    def testEditTestAccount(self):
-        u"""切回管理员，测试帐号赋值测试企业，（编辑测试帐号）--用户扩展信息"""
-        init.editTestAccount(self.driver)
+    # # 8.#切回管理员，测试帐号赋值测试企业，（编辑测试帐号）--用户扩展信息(注意测试账号xpath)
+    # def testEditTestAccount(self):
+    #     u"""切回管理员，测试帐号赋值测试企业，（编辑测试帐号）--用户扩展信息"""
+    #     init.editTestAccount(self.driver)
 
-    # def testte(self):
-    #     init.te(self.driver)
+    # 9、主表校验联系电话不能为空
+    def testchecknumEmpty(self):
+        u"""主表校验联系电话不能为空"""
+        init.checknumEmpty(self.driver)
 
+
+    # 10、主表校验联系电话格式不正确
+    def testchecknumFormat(self):
+        u"""主表校验联系电话格式不正确"""
+        init.checknumFormat(self.driver)
 
 
 if __name__ == '__main__':

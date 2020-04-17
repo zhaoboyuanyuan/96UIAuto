@@ -24,7 +24,7 @@ class initialBaseProc(object):
         wd.clickByXpath(driver, ex.xpathCon('setInf'))
         wd.aboveByXpath(driver, ex.xpathCon('accountChange'))
 
-        com.waitAndClickByXpath(driver, ex.xpathCon('masterAc'))
+        com.forclick(driver, ex.xpathCon('masterAc'))
         com.waitAmoment()
 
     def quitAcc(self,driver):
@@ -43,9 +43,10 @@ class initialBaseProc(object):
         if com.findItem(driver, '控制台') == False:
             com.messageShow('未进入控制台!')
         else:
-            wd.clickByXpath(driver,ex.xpathCon('editTwo'))
+            wd.clickByXpath(driver,'/html/body/div/section/div/div/div[2]/section/section[2]/section/div[1]/div[3]/table/tbody/tr[1]/td[7]/div/div/a[3]')
             com.tapWeb(driver)
-            wd.clickByXpath(driver,ex.xpathCon('modifyInfo'))
+            # wd.clickByXpath(driver,'')
+            com.clickOnText(driver,'修改信息')
             com.waitAmoment()
             if com.findItem(driver, '测试扩展信息') == False:
                 com.messageShow('未进入测试扩展信息页面!')
