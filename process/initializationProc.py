@@ -30,6 +30,7 @@ wd=webdr()
 im=initializationModel()
 ex=excel
 inba=initialBaseProc()
+url=ex.dataCon('murl')
 
 
 class initializationProc(baseProc):
@@ -68,7 +69,7 @@ class initializationProc(baseProc):
             self.distanceMath(driver)
         elif num==14: #进入企业基本信息表
             # driver.get('https://www.51safety.com.cn/space-taicangxintaijiujin1/app/!/information/QiYeXinXi5')
-            driver.get('https://www.51safety.com.cn/space-taixingjinyanhuaxuea/app/!/information/QiYeXinXi5')
+            driver.get('https://www.51safety.com.cn/space-'+url+'/app/!/information/QiYeXinXi5')
             time.sleep(5)
         elif num==15:
             inba.changeMaster(driver)
@@ -155,7 +156,7 @@ class initializationProc(baseProc):
     #点击添加进入表格
     def intoappInformation(self,driver):
         # driver.get('https://www.51safety.com.cn/space-taicangxintaijiujin1/app/!/information/QiYeXinXi5')
-        driver.get('https://www.51safety.com.cn/space-taixingjinyanhuaxuea/app/!/information/QiYeXinXi5')
+        driver.get('https://www.51safety.com.cn/space-'+url+'/app/!/information/QiYeXinXi5')
         time.sleep(5)
         com.forclick(driver, ex.xpathCon('addButton'))
         com.waitAmoment()
@@ -163,7 +164,7 @@ class initializationProc(baseProc):
     #点击添加进入表格
     def intoappIn(self,driver):
         # driver.get('https://www.51safety.com.cn/space-taicangxintaijiujin1/app/!/information/QiYeXinXi5')
-        driver.get('https://www.51safety.com.cn/space-taixingjinyanhuaxuea/app/!/information/QiYeXinXi5')
+        driver.get('https://www.51safety.com.cn/space-'+url+'/app/!/information/QiYeXinXi5')
         time.sleep(5)
         self.delete(driver)
         com.forclick(driver, ex.xpathCon('addButton'))
@@ -516,7 +517,7 @@ class initializationProc(baseProc):
             pass
 
     def operat(self,driver,pname):
-        driver.get('https://www.51safety.com.cn/space-taixingjinyanhuaxuea/app/!/information/QiYeXinXi5')
+        driver.get('https://www.51safety.com.cn/space-'+url+'/app/!/information/QiYeXinXi5')
         time.sleep(5)
         self.delete(driver)
         com.forclick(driver, ex.xpathCon('addButton'))

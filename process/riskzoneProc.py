@@ -147,8 +147,9 @@ class riskzoneProc(baseProc):
             driver.get('https://www.51safety.com.cn/space-' + url + '/app/!/information/GuYouFengXianPingGu')
         elif num==4:  #进入企业风险四色图
             driver.get('https://www.51safety.com.cn/safetyapp/entRisk/view')
-        if not com.waitInvisib(driver,'xpath',ex.xpathCon('setInf')):
-            com.messageShow('首页未切换')
+        # if not com.waitInvisib(driver,'xpath',ex.xpathCon('setInf')):
+        #     com.messageShow('首页未切换')
+        com.waitSuMom(driver)
         com.update(driver)
 
 

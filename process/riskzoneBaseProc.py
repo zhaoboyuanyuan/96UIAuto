@@ -35,7 +35,12 @@ class riskzoneBaseProc(object):
     #填写蒙德法表格
     def enterMen(self,driver):
         #点击添加
-        com.forclick(driver,ex.xpathCon('mondadd'))
+        try:
+            wd.clickByXpath(driver,ex.xpathCon('mondadd'))
+        except:
+            com.dragXpath(driver, ex.xpathCon('houguomoni'))
+            com.waitAmoment()
+            wd.clickByXpath(driver, ex.xpathCon('mondadd'))
         com.waitAmoment()
         #点击保存
         com.forclick(driver,ex.xpathCon('save1'))
