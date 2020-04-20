@@ -21,7 +21,7 @@ from model.initializationModel import initializationModel
 from process.baseProc import baseProc
 from process.commonProc import commonProc
 from process.initialBaseProc import initialBaseProc
-from public import data
+# from public import data
 from public import excel
 from util.webdr import webdr
 

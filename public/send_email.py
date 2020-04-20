@@ -19,7 +19,6 @@ class send_email():
 
 
 
-
     #发送一般默认内容为text和添加附件
     def send(self):
         # 发送邮箱服务器
@@ -45,9 +44,13 @@ class send_email():
         receiver = ["1309817607@qq.com"]
         #注意点：163邮箱会554 DT SMP错误，这时候你只要在发邮件的时候抄送上自己，就再也不会报这个错误了！
         receiver.append("15951644332@163.com")  #自己邮箱
-        # receiver.append("yi.liu@wuliangroup.com") #刘毅
-        # receiver.append("ren.zhong@wuliangroup.com")  #钟任
-        # receiver.append("furong.wang@wuliangroup.com")
+        # receiver.append("308652852@qq.com")  # 朱鑫邮箱
+        # receiver.append("251515765@qq.com")  #姜应东邮箱
+        # receiver.append("490394496@qq.com")  #方瑞邮箱
+        # receiver.append("750541143@qq.com")  #熊原邮箱
+        # receiver.append("379989568@qq.com")  #王超邮箱
+
+
 
         # 发送主题
         subject = '96号文容器自动化测试报告'
@@ -95,7 +98,7 @@ class send_email():
         f.close()
         html = MIMEText(mail_body, _subtype='html', _charset='utf-8')
         return html
-#
+
 # if __name__ == '__main__':
 #     send_email().send()
 

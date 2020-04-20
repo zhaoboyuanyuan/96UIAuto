@@ -6,7 +6,7 @@ from time import sleep
 from selenium import webdriver
 
 from process.commonProc import commonProc
-from public import data
+# from public import data
 from public import excel
 from util.webdr import webdr
 
@@ -64,13 +64,18 @@ class openWeb():
             else:
                 com.waitAmoment()
                 self.driver.find_element_by_xpath('//*[@id="paas-app"]/div/header/nav/ul[2]/li[1]/a/span').click()
-                self.driver.find_element_by_xpath('//*[@id="paas-app"]/div/header/nav/ul[2]/li[1]/div/a[1]').click()
+                sleep(1)
+                try:
+                    self.driver.find_element_by_xpath('//*[@id="paas-app"]/div/header/nav/ul[2]/li[1]/div/a[1]').click()
+                except:
+                    self.driver.find_element_by_xpath('//*[@id="paas-app"]/div/header/nav/ul[2]/li[1]/a/span').click()
+                    sleep(1)
+                    self.driver.find_element_by_xpath('//*[@id="paas-app"]/div/header/nav/ul[2]/li[1]/div/a[1]').click()
                 self.driver.find_element_by_xpath('/html/body/div[2]/div/div[3]/button[2]/span').click()
                 a=a+1
-
         com.waitAmoment()
 
-#
+
 # o = openWeb()
 # o.writeSetUp()
 # o.writeTearDown()

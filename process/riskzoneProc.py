@@ -11,7 +11,7 @@ from model.riskzoneModel import riskzoneModel
 from process.baseProc import baseProc
 from process.commonProc import commonProc
 from process.riskzoneBaseProc import riskzoneBaseProc
-from public import data
+# from public import data
 from public import excel
 from util.webdr import webdr
 
@@ -206,7 +206,11 @@ class riskzoneProc(baseProc):
         com.waitAmoment()
         com.tapWeb(driver)
         #风险点基本信息
-        com.forclick(driver,ex.xpathCon('fenxiandianjiben'))
+        try:
+            wd.clickByXpath(driver,ex.xpathCon('fenxiandianjiben'))
+        except:
+            com.tapWeb(driver)
+            wd.clickByXpath(driver,ex.xpathCon('fenxiandianjiben'))
         sleep(1)
         com.keyBoard()
         # com.waitAndClickByCss(driver, 'li[class="el-select-dropdown__item selected"][title="测试企业"]')

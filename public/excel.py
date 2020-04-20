@@ -14,7 +14,8 @@ dict = {}
 # ID控件
 def idCon(text):
     data = xlrd.open_workbook(excel_path)
-    table = data.sheets()[1]
+    # table = data.sheets()[1]
+    table = data.sheet_by_name('id')
     rows = table.nrows
     cols = table.ncols
 
@@ -29,7 +30,8 @@ def idCon(text):
 # xpath控件            
 def xpathCon(text):
     data = xlrd.open_workbook(excel_path)
-    table = data.sheets()[2]
+    # table = data.sheets()[2]
+    table = data.sheet_by_name('xpath')
     # print(table)
     rows = table.nrows
     cols = table.ncols
@@ -44,7 +46,8 @@ def xpathCon(text):
 # className控件
 def classNameCon(text):
     data = xlrd.open_workbook(excel_path)
-    table = data.sheets()[3]
+    # table = data.sheets()[3]
+    table = data.sheet_by_name('className')
     rows = table.nrows
     cols = table.ncols
     for i in range(0, rows):
@@ -128,4 +131,4 @@ def fejie(string):
 
 
 
-# print(dataCon('password'))
+# print(xpathCon('workbench'))

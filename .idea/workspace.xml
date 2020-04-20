@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoTestManager">
-    <enabled-run-configurations>
-      <run-configuration type="tests" name="Unittests in riskzoneTest" />
-    </enabled-run-configurations>
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="18426c31-c9e5-4408-b7dd-81fe8b77e0fc" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/data.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/geckodriver.log" afterPath="$PROJECT_DIR$/geckodriver.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/test_log.log" afterPath="$PROJECT_DIR$/log/test_log.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/process/commonProc.py" afterPath="$PROJECT_DIR$/process/commonProc.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/process/initializationProc.py" afterPath="$PROJECT_DIR$/process/initializationProc.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/process/riskzoneProc.py" afterPath="$PROJECT_DIR$/process/riskzoneProc.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/excel.py" afterPath="$PROJECT_DIR$/public/excel.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/geckodriver.log" afterPath="$PROJECT_DIR$/public/geckodriver.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/mailText.py" afterPath="$PROJECT_DIR$/public/mailText.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/openWeb.py" afterPath="$PROJECT_DIR$/public/openWeb.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/send_email.py" afterPath="$PROJECT_DIR$/public/send_email.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testcase/geckodriver.log" afterPath="$PROJECT_DIR$/testcase/geckodriver.log" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/WeChatSmartHome.iml" afterPath="$PROJECT_DIR$/.idea/96UIAuto.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,9 +42,9 @@
     <SUITE FILE_PATH="coverage/96UIAutoC$demou.coverage" NAME="demou Coverage Results" MODIFIED="1586338330213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
     <SUITE FILE_PATH="coverage/96UIAutoC$commonProc.coverage" NAME="commonProc Coverage Results" MODIFIED="1585632393822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/process" />
     <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_riskzoneTest_testinherent.coverage" NAME="Unittest riskzoneTest.testinherent Coverage Results" MODIFIED="1587088944548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/96UIAutoC$send_email.coverage" NAME="send_email Coverage Results" MODIFIED="1586507350674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
-    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_riskzoneTest_testdowCheck.coverage" NAME="Unittest riskzoneTest.testdowCheck Coverage Results" MODIFIED="1586914763745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_riskzoneTest_testhiguCalValue.coverage" NAME="Unittest riskzoneTest.testhiguCalValue Coverage Results" MODIFIED="1587002755230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_riskzoneTest_testdowCheck.coverage" NAME="Unittest riskzoneTest.testdowCheck Coverage Results" MODIFIED="1587346122637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_riskzoneTest_testhiguCalValue.coverage" NAME="Unittest riskzoneTest.testhiguCalValue Coverage Results" MODIFIED="1587351951414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$send_email.coverage" NAME="send_email Coverage Results" MODIFIED="1587353776585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
     <SUITE FILE_PATH="coverage/96UIAutoC$riskzoneTest.coverage" NAME="riskzoneTest Coverage Results" MODIFIED="1584514184790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/SafetyappEducate$Unittest_courseCommentTest_testEndtime.coverage" NAME="Unittest courseCommentTest.testEndtime Coverage Results" MODIFIED="1578016657873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittests_in_sceneTest.coverage" NAME="Unittests in sceneTest Coverage Results" MODIFIED="1530757577011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
@@ -60,11 +63,12 @@
     <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittest_loginTest_testVeNoneUser.coverage" NAME="Unittest loginTest.testVeNoneUser Coverage Results" MODIFIED="1530683386569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittests_in_loginTest__3_.coverage" NAME="Unittests in loginTest (3) Coverage Results" MODIFIED="1530609403835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/96UIAutoC$htmlImg.coverage" NAME="htmlImg Coverage Results" MODIFIED="1582611090128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
-    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_riskzoneTest_testassessmen.coverage" NAME="Unittest riskzoneTest.testassessmen Coverage Results" MODIFIED="1587022611171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_riskzoneTest_testassessmen.coverage" NAME="Unittest riskzoneTest.testassessmen Coverage Results" MODIFIED="1587346569968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_riskzoneTest_testqbindSqu.coverage" NAME="Unittest riskzoneTest.testqbindSqu Coverage Results" MODIFIED="1586831818011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/SafetyappEducate$Unittest_test_test_case_2__1_.coverage" NAME="Unittest test.test_case_2 (1) Coverage Results" MODIFIED="1578289521084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/process" />
     <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testAFillForm.coverage" NAME="Unittest initializationTest.testAFillForm Coverage Results" MODIFIED="1587103240418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testdrawSqu.coverage" NAME="Unittest initializationTest.testdrawSqu Coverage Results" MODIFIED="1586479296075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAuto$Unittest_riskzoneTest_testqpointCheck.coverage" NAME="Unittest riskzoneTest.testqpointCheck Coverage Results" MODIFIED="1587353244845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/SafetyappEducate$Unittest_courseCommTest_testScoreSucc.coverage" NAME="Unittest courseCommTest.testScoreSucc Coverage Results" MODIFIED="1578389663089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/SafetyappEducate$Unittest_test_test_case_2.coverage" NAME="Unittest test.test_case_2 Coverage Results" MODIFIED="1578289574496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/process" />
     <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittests_in_messageTest.coverage" NAME="Unittests in messageTest Coverage Results" MODIFIED="1530762437685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
@@ -101,9 +105,10 @@
     <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittests_in_loginTest__2_.coverage" NAME="Unittests in loginTest (2) Coverage Results" MODIFIED="1530609530840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_execite_test_is_none.coverage" NAME="Unittest execite.test_is_none Coverage Results" MODIFIED="1583916558382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
     <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testmende2.coverage" NAME="Unittest initializationTest.testmende2 Coverage Results" MODIFIED="1585633340497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/96UIAutoC$Unittests_in_riskzoneTest.coverage" NAME="Unittests in riskzoneTest Coverage Results" MODIFIED="1587092296645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittests_in_riskzoneTest.coverage" NAME="Unittests in riskzoneTest Coverage Results" MODIFIED="1587348482616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittest_loginTest_testWrongUser.coverage" NAME="Unittest loginTest.testWrongUser Coverage Results" MODIFIED="1530688786640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/96UIAuto$excel.coverage" NAME="excel Coverage Results" MODIFIED="1581998055371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testACcountHost.coverage" NAME="Unittest initializationTest.testACcountHost Coverage Results" MODIFIED="1587344343114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittests_in_homePageTest.coverage" NAME="Unittests in homePageTest Coverage Results" MODIFIED="1530755452660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_riskzoneTest_testmende1.coverage" NAME="Unittest riskzoneTest.testmende1 Coverage Results" MODIFIED="1586842149349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/SafetyappEducate$Unittests_in_execite__3_.coverage" NAME="Unittests in execite (3) Coverage Results" MODIFIED="1578377670285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/process" />
@@ -139,7 +144,7 @@
     <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_riskzoneTest_testmende2.coverage" NAME="Unittest riskzoneTest.testmende2 Coverage Results" MODIFIED="1586931183032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittest_loginTest_testWrongUser__1_.coverage" NAME="Unittest loginTest.testWrongUser (1) Coverage Results" MODIFIED="1530067158567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittest_homePageTest_testDeviceDetail.coverage" NAME="Unittest homePageTest.testDeviceDetail Coverage Results" MODIFIED="1530755420539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_riskzoneTest_testcontrol.coverage" NAME="Unittest riskzoneTest.testcontrol Coverage Results" MODIFIED="1587004444958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_riskzoneTest_testcontrol.coverage" NAME="Unittest riskzoneTest.testcontrol Coverage Results" MODIFIED="1587351782559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/WeChatSmartHome$mineProc.coverage" NAME="mineProc Coverage Results" MODIFIED="1530771195521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/process" />
     <SUITE FILE_PATH="coverage/SafetyappEducate$Unittests_in_exec__1_.coverage" NAME="Unittests in exec (1) Coverage Results" MODIFIED="1578374938874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/process" />
     <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testmende1.coverage" NAME="Unittest initializationTest.testmende1 Coverage Results" MODIFIED="1584950666211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
@@ -171,14 +176,14 @@
     <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittest_loginTest_testWrongUser__3_.coverage" NAME="Unittest loginTest.testWrongUser (3) Coverage Results" MODIFIED="1530067498418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testshigu.coverage" NAME="Unittest initializationTest.testshigu Coverage Results" MODIFIED="1586314573092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_riskzoneTest_testdrawCir.coverage" NAME="Unittest riskzoneTest.testdrawCir Coverage Results" MODIFIED="1586943232347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/96UIAutoC$excel.coverage" NAME="excel Coverage Results" MODIFIED="1587116155606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$excel.coverage" NAME="excel Coverage Results" MODIFIED="1587344313259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
     <SUITE FILE_PATH="coverage/SafetyappEducate$Unittest_courseCommentTest_testAllDeleteCancel.coverage" NAME="Unittest courseCommentTest.testAllDeleteCancel Coverage Results" MODIFIED="1577434018716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testmendeCheck.coverage" NAME="Unittest initializationTest.testmendeCheck Coverage Results" MODIFIED="1586244027855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testchecknumFormat.coverage" NAME="Unittest initializationTest.testchecknumFormat Coverage Results" MODIFIED="1587084964089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittests_in_open.coverage" NAME="Unittests in open Coverage Results" MODIFIED="1529897469892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
     <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testTe.coverage" NAME="Unittest initializationTest.testTe Coverage Results" MODIFIED="1584425046127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittest_loginTest_testVeCodeLogin.coverage" NAME="Unittest loginTest.testVeCodeLogin Coverage Results" MODIFIED="1530683350509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_riskzoneTest_testhiguCheck.coverage" NAME="Unittest riskzoneTest.testhiguCheck Coverage Results" MODIFIED="1586770597940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_riskzoneTest_testhiguCheck.coverage" NAME="Unittest riskzoneTest.testhiguCheck Coverage Results" MODIFIED="1587347984277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittest_mineTest_testBandCount.coverage" NAME="Unittest mineTest.testBandCount Coverage Results" MODIFIED="1530772957929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/SafetyappEducate$Unittest_courseCommTest_testbegintime2__1_.coverage" NAME="Unittest courseCommTest.testbegintime2 (1) Coverage Results" MODIFIED="1579224143370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testCheckEmpty.coverage" NAME="Unittest initializationTest.testCheckEmpty Coverage Results" MODIFIED="1587020961653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
@@ -200,9 +205,9 @@
     <SUITE FILE_PATH="coverage/SafetyappEducate$Unittest_demo_test02__2_.coverage" NAME="Unittest demo.test02 (2) Coverage Results" MODIFIED="1579226031227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
     <SUITE FILE_PATH="coverage/SafetyappEducate$send_email.coverage" NAME="send_email Coverage Results" MODIFIED="1578454680957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
     <SUITE FILE_PATH="coverage/96UIAutoC$riskzoneBaseProc.coverage" NAME="riskzoneBaseProc Coverage Results" MODIFIED="1586257133488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/process" />
-    <SUITE FILE_PATH="coverage/96UIAutoC$Unittests_in_initializationTest.coverage" NAME="Unittests in initializationTest Coverage Results" MODIFIED="1587105217816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$Unittests_in_initializationTest.coverage" NAME="Unittests in initializationTest Coverage Results" MODIFIED="1587344776324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testAccountHost.coverage" NAME="Unittest initializationTest.testAccountHost Coverage Results" MODIFIED="1582681905914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/96UIAutoC$openWeb.coverage" NAME="openWeb Coverage Results" MODIFIED="1587116419944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/96UIAutoC$openWeb.coverage" NAME="openWeb Coverage Results" MODIFIED="1587348435915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
     <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testbindPt.coverage" NAME="Unittest initializationTest.testbindPt Coverage Results" MODIFIED="1586500679191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_riskzoneTest_testmende.coverage" NAME="Unittest riskzoneTest.testmende Coverage Results" MODIFIED="1587026938476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testinherent.coverage" NAME="Unittest initializationTest.testinherent Coverage Results" MODIFIED="1586244415225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
@@ -225,6 +230,7 @@
     <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_riskzoneTest_testhiguRefer.coverage" NAME="Unittest riskzoneTest.testhiguRefer Coverage Results" MODIFIED="1587015352812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/96UIAuto$Unittests_in_initializationTest.coverage" NAME="Unittests in initializationTest Coverage Results" MODIFIED="1582505613599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/96UIAutoC$Unittest_initializationTest_testbindSqucheck.coverage" NAME="Unittest initializationTest.testbindSqucheck Coverage Results" MODIFIED="1586500785602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/96UIAuto$all_tests.coverage" NAME="all_tests Coverage Results" MODIFIED="1587353362450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SafetyappEducate$Unittest_courseCommentTest_testCircleClose1.coverage" NAME="Unittest courseCommentTest.testCircleClose1 Coverage Results" MODIFIED="1578029404664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/WeChatSmartHome$loginTest.coverage" NAME="loginTest Coverage Results" MODIFIED="1530610110312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/WeChatSmartHome$Unittests_in_loginTest__4_.coverage" NAME="Unittests in loginTest (4) Coverage Results" MODIFIED="1530609493622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
@@ -258,8 +264,8 @@
       <file leaf-file-name="commonProc.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/process/commonProc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="41" column="24" lean-forward="true" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
+            <state relative-caret-position="166">
+              <caret line="446" column="0" lean-forward="false" selection-start-line="446" selection-start-column="0" selection-end-line="446" selection-end-column="0" />
               <folding>
                 <element signature="e#15#30#0" expanded="true" />
               </folding>
@@ -270,8 +276,8 @@
       <file leaf-file-name="riskzoneBaseProc.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/process/riskzoneBaseProc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3379">
-              <caret line="362" column="8" lean-forward="false" selection-start-line="362" selection-start-column="8" selection-end-line="362" selection-end-column="8" />
+            <state relative-caret-position="245">
+              <caret line="255" column="25" lean-forward="false" selection-start-line="255" selection-start-column="25" selection-end-line="255" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -280,50 +286,38 @@
       <file leaf-file-name="initializationTest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testcase/initializationTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-299">
-              <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+            <state relative-caret-position="160">
+              <caret line="58" column="44" lean-forward="false" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="riskzoneProc.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/process/riskzoneProc.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="138" column="9" lean-forward="true" selection-start-line="138" selection-start-column="9" selection-end-line="138" selection-end-column="9" />
-              <folding>
-                <element signature="e#70#134#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="excel.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/excel.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="61" column="22" lean-forward="true" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="riskzoneTest.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="riskzoneTest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testcase/riskzoneTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1496">
-              <caret line="93" column="17" lean-forward="true" selection-start-line="93" selection-start-column="17" selection-end-line="93" selection-end-column="17" />
+            <state relative-caret-position="387">
+              <caret line="175" column="13" lean-forward="false" selection-start-line="175" selection-start-column="13" selection-end-line="175" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="openWeb.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/openWeb.py">
+      <file leaf-file-name="mailText.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/mailText.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="75" column="19" lean-forward="false" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="19" />
+            <state relative-caret-position="398">
+              <caret line="65" column="15" lean-forward="true" selection-start-line="65" selection-start-column="15" selection-end-line="65" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="send_email.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/send_email.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="88" column="31" lean-forward="true" selection-start-line="88" selection-start-column="31" selection-end-line="88" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -332,9 +326,47 @@
       <file leaf-file-name="all_tests.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/all_tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="602">
-              <caret line="73" column="32" lean-forward="true" selection-start-line="73" selection-start-column="32" selection-end-line="73" selection-end-column="32" />
+            <state relative-caret-position="330">
+              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="riskzoneProc.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/process/riskzoneProc.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="529" column="8" lean-forward="false" selection-start-line="529" selection-start-column="8" selection-end-line="529" selection-end-column="8" />
+              <folding>
+                <element signature="e#70#134#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="result.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/result/result.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="346">
+              <caret line="7351" column="25" lean-forward="false" selection-start-line="7351" selection-start-column="25" selection-end-line="7351" selection-end-column="25" />
+              <folding>
+                <marker date="1587109662303" expanded="true" signature="192197:192233" ph="..." />
+                <marker date="1587109662303" expanded="true" signature="195098:195119" ph="..." />
+                <marker date="1587109662303" expanded="true" signature="195567:195585" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="openWeb.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/openWeb.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="61" column="22" lean-forward="false" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
+              <folding>
+                <element signature="e#16#31#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -419,20 +451,20 @@
         <option value="$PROJECT_DIR$/model/riskzoneModel.py" />
         <option value="$PROJECT_DIR$/public/demou.py" />
         <option value="$PROJECT_DIR$/all_tests.py" />
-        <option value="$PROJECT_DIR$/public/send_email.py" />
         <option value="$USER_HOME$/AppData/Local/Temp/荒谬！美议员要中国为1.6万美国人死亡“负责”.url" />
         <option value="$PROJECT_DIR$/util/webdr.py" />
         <option value="$PROJECT_DIR$/process/initialBaseProc.py" />
         <option value="$PROJECT_DIR$/process/riskzoneBaseProc.py" />
         <option value="$PROJECT_DIR$/testcase/initializationTest.py" />
         <option value="$PROJECT_DIR$/testcase/riskzoneTest.py" />
-        <option value="$PROJECT_DIR$/process/initializationProc.py" />
-        <option value="$PROJECT_DIR$/public/mailText.py" />
-        <option value="$PROJECT_DIR$/process/riskzoneProc.py" />
-        <option value="$PROJECT_DIR$/public/excel.py" />
-        <option value="$PROJECT_DIR$/process/commonProc.py" />
-        <option value="$PROJECT_DIR$/public/openWeb.py" />
         <option value="$PROJECT_DIR$/public/data.py" />
+        <option value="$PROJECT_DIR$/process/commonProc.py" />
+        <option value="$PROJECT_DIR$/process/initializationProc.py" />
+        <option value="$PROJECT_DIR$/public/excel.py" />
+        <option value="$PROJECT_DIR$/process/riskzoneProc.py" />
+        <option value="$PROJECT_DIR$/public/openWeb.py" />
+        <option value="$PROJECT_DIR$/public/mailText.py" />
+        <option value="$PROJECT_DIR$/public/send_email.py" />
       </list>
     </option>
   </component>
@@ -468,7 +500,7 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="96UIAutoC" />
+              <option name="myItemId" value="96UIAuto" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -478,7 +510,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="96UIAutoC" />
+              <option name="myItemId" value="96UIAuto" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -492,7 +524,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="96UIAutoC" />
+              <option name="myItemId" value="96UIAuto" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -506,7 +538,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="96UIAutoC" />
+              <option name="myItemId" value="96UIAuto" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -520,7 +552,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="96UIAutoC" />
+              <option name="myItemId" value="96UIAuto" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -534,7 +566,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="96UIAutoC" />
+              <option name="myItemId" value="96UIAuto" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -548,7 +580,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="96UIAutoC" />
+              <option name="myItemId" value="96UIAuto" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -562,8 +594,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -577,7 +609,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="D:\Program Files\nodejs\node.exe" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../package" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/send_email.py" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -596,8 +628,8 @@
       <recent name="D:\code\SafetyappEducate\process" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.openWeb">
-    <configuration default="false" name="Unittests in initializationTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.send_email">
+    <configuration default="false" name="Unittest riskzoneTest.testcontrol" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -608,16 +640,80 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="WeChatSmartHome" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcase/initializationTest.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcase/riskzoneTest.py" />
+      <option name="CLASS_NAME" value="riskzoneTest" />
+      <option name="METHOD_NAME" value="testcontrol" />
       <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittest riskzoneTest.testhiguCalValue" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="WeChatSmartHome" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcase/riskzoneTest.py" />
+      <option name="CLASS_NAME" value="riskzoneTest" />
+      <option name="METHOD_NAME" value="testhiguCalValue" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittest riskzoneTest.testqpointCheck" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="96UIAuto" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcase/riskzoneTest.py" />
+      <option name="CLASS_NAME" value="riskzoneTest" />
+      <option name="METHOD_NAME" value="testqpointCheck" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="send_email" type="PythonConfigurationType" factoryName="Python" activateToolWindowBeforeRun="false" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/public" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="96UIAuto" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/public/send_email.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
     <configuration default="false" name="all_tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -631,68 +727,9 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="WeChatSmartHome" />
+      <module name="96UIAuto" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/all_tests.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittest riskzoneTest.testqareaCheck" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="WeChatSmartHome" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcase/riskzoneTest.py" />
-      <option name="CLASS_NAME" value="riskzoneTest" />
-      <option name="METHOD_NAME" value="testqareaCheck" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_METHOD" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="excel" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/public" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="WeChatSmartHome" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/public/excel.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="openWeb" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/public" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="WeChatSmartHome" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/public/openWeb.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -936,19 +973,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python tests.WeChatSmartHome" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in initializationTest" />
-      <item index="2" class="java.lang.String" itemvalue="Python.all_tests" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest riskzoneTest.testqareaCheck" />
-      <item index="4" class="java.lang.String" itemvalue="Python.excel" />
-      <item index="5" class="java.lang.String" itemvalue="Python.openWeb" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest riskzoneTest.testcontrol" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest riskzoneTest.testhiguCalValue" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest riskzoneTest.testqpointCheck" />
+      <item index="4" class="java.lang.String" itemvalue="Python.send_email" />
+      <item index="5" class="java.lang.String" itemvalue="Python.all_tests" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.openWeb" />
-        <item index="1" class="java.lang.String" itemvalue="Python.excel" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest riskzoneTest.testqareaCheck" />
-        <item index="3" class="java.lang.String" itemvalue="Python.all_tests" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in initializationTest" />
+        <item index="0" class="java.lang.String" itemvalue="Python.send_email" />
+        <item index="1" class="java.lang.String" itemvalue="Python.all_tests" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest riskzoneTest.testqpointCheck" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest riskzoneTest.testhiguCalValue" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest riskzoneTest.testcontrol" />
       </list>
     </recent_temporary>
   </component>
@@ -984,35 +1021,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittest_initializationTest_testAFillForm - 2020.04.17 at 14h 01m 51s.xml">
-      <configuration name="Unittest initializationTest.testAFillForm" configurationId="tests" />
+    <history-entry file="Unittest_riskzoneTest_testassessmen - 2020.04.20 at 09h 37m 48s.xml">
+      <configuration name="Unittest riskzoneTest.testassessmen" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_initializationTest_testBCollateralForm - 2020.04.17 at 13h 47m 51s.xml">
-      <configuration name="Unittest initializationTest.testBCollateralForm" configurationId="tests" />
+    <history-entry file="Unittest_riskzoneTest_testcontrol - 2020.04.20 at 11h 05m 22s.xml">
+      <configuration name="Unittest riskzoneTest.testcontrol" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_riskzoneTest_testqareaCheck - 2020.04.17 at 16h 05m 07s.xml">
-      <configuration name="Unittest riskzoneTest.testqareaCheck" configurationId="tests" />
+    <history-entry file="Unittest_riskzoneTest_testdowCheck - 2020.04.20 at 09h 30m 47s.xml">
+      <configuration name="Unittest riskzoneTest.testdowCheck" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_riskzoneTest_testqareaCheck - 2020.04.17 at 16h 05m 43s.xml">
-      <configuration name="Unittest riskzoneTest.testqareaCheck" configurationId="tests" />
+    <history-entry file="Unittest_riskzoneTest_testhiguCalValue - 2020.04.20 at 11h 07m 56s.xml">
+      <configuration name="Unittest riskzoneTest.testhiguCalValue" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_riskzoneTest_testqareaCheck - 2020.04.17 at 16h 07m 08s.xml">
-      <configuration name="Unittest riskzoneTest.testqareaCheck" configurationId="tests" />
+    <history-entry file="Unittest_riskzoneTest_testhiguCheck - 2020.04.20 at 10h 00m 27s.xml">
+      <configuration name="Unittest riskzoneTest.testhiguCheck" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_riskzoneTest_testqareaCheck - 2020.04.17 at 16h 09m 17s.xml">
-      <configuration name="Unittest riskzoneTest.testqareaCheck" configurationId="tests" />
+    <history-entry file="Unittest_riskzoneTest_testqpointCheck - 2020.04.20 at 11h 27m 34s.xml">
+      <configuration name="Unittest riskzoneTest.testqpointCheck" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_initializationTest - 2020.04.17 at 14h 00m 30s.xml">
-      <configuration name="Unittests in initializationTest" configurationId="tests" />
+    <history-entry file="Unittests_in_riskzoneTest - 2020.04.20 at 09h 33m 02s.xml">
+      <configuration name="Unittests in riskzoneTest" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_initializationTest - 2020.04.17 at 14h 19m 10s.xml">
-      <configuration name="Unittests in initializationTest" configurationId="tests" />
+    <history-entry file="Unittests_in_riskzoneTest - 2020.04.20 at 09h 37m 57s.xml">
+      <configuration name="Unittests in riskzoneTest" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_initializationTest - 2020.04.17 at 14h 32m 45s.xml">
-      <configuration name="Unittests in initializationTest" configurationId="tests" />
+    <history-entry file="Unittests_in_riskzoneTest - 2020.04.20 at 09h 58m 08s.xml">
+      <configuration name="Unittests in riskzoneTest" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_initializationTest - 2020.04.17 at 14h 43m 56s.xml">
-      <configuration name="Unittests in initializationTest" configurationId="tests" />
+    <history-entry file="Unittests_in_riskzoneTest - 2020.04.20 at 11h 01m 27s.xml">
+      <configuration name="Unittests in riskzoneTest" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -1025,16 +1062,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1741453" sideWeight="0.48784193" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17628205" sideWeight="0.48784193" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.321047" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42030567" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42030567" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.49392098" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16559829" sideWeight="0.51215804" order="2" side_tool="true" content_ui="tabs" />
@@ -1066,7 +1103,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="44" />
+      <option name="time" value="46" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1206,14 +1243,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="49" column="10" lean-forward="true" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/result/result.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="7347" column="31" lean-forward="true" selection-start-line="7347" selection-start-column="31" selection-end-line="7347" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -1243,7 +1272,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1251,7 +1279,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1259,7 +1286,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
           <caret line="181" column="13" lean-forward="false" selection-start-line="181" selection-start-column="13" selection-end-line="181" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1267,7 +1293,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="187" column="12" lean-forward="true" selection-start-line="187" selection-start-column="12" selection-end-line="187" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1299,23 +1324,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="71" column="62" lean-forward="true" selection-start-line="71" selection-start-column="62" selection-end-line="71" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/webdr.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/process/initializationProc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="429" column="11" lean-forward="true" selection-start-line="429" selection-start-column="11" selection-end-line="429" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1323,39 +1331,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
           <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/send_email.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/mailText.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="41" lean-forward="true" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/initializationTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-299">
-          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/all_tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="73" column="32" lean-forward="true" selection-start-line="73" selection-start-column="32" selection-end-line="73" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1363,66 +1338,122 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
           <caret line="44" column="17" lean-forward="false" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/process/riskzoneProc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="138" column="9" lean-forward="true" selection-start-line="138" selection-start-column="9" selection-end-line="138" selection-end-column="9" />
-          <folding>
-            <element signature="e#70#134#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/public/data.py" />
     <entry file="file://$PROJECT_DIR$/public/excel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="61" column="22" lean-forward="true" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
+        <state relative-caret-position="381">
+          <caret line="133" column="30" lean-forward="true" selection-start-line="133" selection-start-column="30" selection-end-line="133" selection-end-column="30" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/process/initializationProc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-803">
+          <caret line="445" column="8" lean-forward="false" selection-start-line="445" selection-start-column="8" selection-end-line="445" selection-end-column="8" />
+          <folding>
+            <element signature="e#195#208#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/process/commonProc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="41" column="24" lean-forward="true" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
+        <state relative-caret-position="166">
+          <caret line="446" column="0" lean-forward="false" selection-start-line="446" selection-start-column="0" selection-end-line="446" selection-end-column="0" />
           <folding>
             <element signature="e#15#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/process/riskzoneBaseProc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3379">
-          <caret line="362" column="8" lean-forward="false" selection-start-line="362" selection-start-column="8" selection-end-line="362" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/openWeb.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="75" column="19" lean-forward="false" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="19" />
+        <state relative-caret-position="313">
+          <caret line="61" column="22" lean-forward="false" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
+          <folding>
+            <element signature="e#16#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/process/riskzoneProc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="529" column="8" lean-forward="false" selection-start-line="529" selection-start-column="8" selection-end-line="529" selection-end-column="8" />
+          <folding>
+            <element signature="e#70#134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/webdr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="38" column="8" lean-forward="false" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/data.py">
+    <entry file="file://$PROJECT_DIR$/process/riskzoneBaseProc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+        <state relative-caret-position="245">
+          <caret line="255" column="25" lean-forward="false" selection-start-line="255" selection-start-column="25" selection-end-line="255" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result/result.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="7351" column="25" lean-forward="false" selection-start-line="7351" selection-start-column="25" selection-end-line="7351" selection-end-column="25" />
+          <folding>
+            <marker date="1587109662303" expanded="true" signature="192197:192233" ph="..." />
+            <marker date="1587109662303" expanded="true" signature="195098:195119" ph="..." />
+            <marker date="1587109662303" expanded="true" signature="195567:195585" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/initializationTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="58" column="44" lean-forward="false" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/mailText.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="65" column="15" lean-forward="true" selection-start-line="65" selection-start-column="15" selection-end-line="65" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testcase/riskzoneTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1496">
-          <caret line="93" column="17" lean-forward="true" selection-start-line="93" selection-start-column="17" selection-end-line="93" selection-end-column="17" />
+        <state relative-caret-position="387">
+          <caret line="175" column="13" lean-forward="false" selection-start-line="175" selection-start-column="13" selection-end-line="175" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/all_tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/send_email.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="88" column="31" lean-forward="true" selection-start-line="88" selection-start-column="31" selection-end-line="88" selection-end-column="31" />
           <folding />
         </state>
       </provider>
