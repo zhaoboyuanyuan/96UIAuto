@@ -59,12 +59,12 @@ class commonProc(object):
         raise NameError(message)
 
 
-    def login(self,driver):
-        driver.find_element_by_xpath("/html/body/div[1]/div/div[2]/input").send_keys("15951644332")
-        driver.find_element_by_xpath("/html/body/div[1]/div/div[3]/input").send_keys("123456abcd")
-        driver.find_element_by_xpath("/html/body/div[1]/div/button").click()
-        if self.loginedORNot(driver) == False:
-            self.messageShow("登录失败！")
+    # def login(self,driver):
+    #     driver.find_element_by_xpath("/html/body/div[1]/div/div[2]/input").send_keys("15951644332")
+    #     driver.find_element_by_xpath("/html/body/div[1]/div/div[3]/input").send_keys("123456abcd")
+    #     driver.find_element_by_xpath("/html/body/div[1]/div/button").click()
+    #     if self.loginedORNot(driver) == False:
+    #         self.messageShow("登录失败！")
 
     #首页检查
     def homeCheck(self,driver):

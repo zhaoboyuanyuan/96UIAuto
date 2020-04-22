@@ -342,7 +342,7 @@ class initializationProc(baseProc):
 
         # 点击确定
         com.waitAndClickByXpath(driver,ex.xpathCon('sureButton'))
-        time.sleep(10)
+        com.waitSuMom(driver)
 
 
 

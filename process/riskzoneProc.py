@@ -66,6 +66,7 @@ class riskzoneProc(baseProc):
         elif num==12: #填写区域控制风险评估
             self.enterConRi(driver)
         elif num==13:
+            # rb.taixing(driver)   # 泰兴版本的LEC、LS、MES
             self.enterLES(driver)  #填写LES
             self.enterLS(driver)   #填写LS
             self.enterMES(driver)  #填写MES
@@ -174,7 +175,11 @@ class riskzoneProc(baseProc):
     def evaluation(self,driver,text):
         com.xpathExist(driver,ex.xpathCon('epname1'))
         #企业名称
-        com.dropDownBox(driver,ex.xpathCon('epname1'),'测试企业')
+        try:
+            com.dropDownBox(driver,ex.xpathCon('epname1'),'测试企业')
+        except:
+            com.tapWeb(driver)
+            com.dropDownBox(driver, ex.xpathCon('epname1'), '测试企业')
         #区域/场所/单元名称
         wd.enterByXpath(driver,ex.xpathCon('acdname'),text)
         #是否涉及重点监管化工工艺
@@ -203,7 +208,8 @@ class riskzoneProc(baseProc):
         #滑动到记录人
         com.dragXpath(driver,ex.xpathCon('recorder'))
         #点击添加
-        wd.clickByXpath(driver,ex.xpathCon('fengxiandianadd'))
+        wd.clickByXpath(driver,ex.xpathCon('jixinjianfenxian'))#基线容器
+        # wd.clickByXpath(driver,ex.xpathCon('fengxiandianadd')) #泰兴容器
         com.waitAmoment()
         com.tapWeb(driver)
         #风险点基本信息
@@ -279,6 +285,7 @@ class riskzoneProc(baseProc):
     #检查LSR值
     def checkLSR(self,driver,message):
         com.waitSuMom(driver)
+        com.tapWeb(driver)
         L=wd.findXpath(driver,ex.xpathCon('valueL')).text
         S=wd.findXpath(driver,ex.xpathCon('valueS')).text
         R=wd.findXpath(driver, ex.xpathCon('valueR')).text
@@ -301,17 +308,25 @@ class riskzoneProc(baseProc):
 
     #填写区域控制风险评估
     def enterConRi(self,driver):
+        com.waitAmoment()
         com.tapWeb(driver)
         #企业名称
+        # js = "document.getElementsByClassName('el-input__inner')[0].removeAttribute('readonly');"
+        # driver.execute_script(js)
+        # wd.enterByXpath(driver, ex.xpathCon('epname3'), '测试企业')
         try:
-            com.dropDownBox(driver,ex.xpathCon('epname3'),'测试企业')
+            wd.clickByXpath(driver,ex.xpathCon('epname3'))
+            com.waitAmoment()
+            com.forclick(driver, '//span[contains(text(),"测试企业")]')
         except:
             com.tapWeb(driver)
-            com.dropDownBox(driver, ex.xpathCon('epname3'), '测试企业')
+            wd.clickByXpath(driver, ex.xpathCon('epname3'))
+            com.waitAmoment()
+            com.forclick(driver, '//span[contains(text(),"测试企业")]')
         #风险点名称
-        wd.clickByXpath(driver, ex.xpathCon('rickName1'))
-        xp='//span[contains(text(),"交通局")]'
-        com.forclick(driver, xp)
+        js = "document.getElementsByClassName('el-input__inner')[1].removeAttribute('readonly');"
+        driver.execute_script(js)
+        wd.enterByXpath(driver,ex.xpathCon('rickName1'),'交通局')
         #评估类型
         com.dropDownBox(driver,ex.xpathCon('pingguleixing'),'定期风险评估')
         com.waitAmoment()
@@ -334,14 +349,14 @@ class riskzoneProc(baseProc):
         com.tapWeb(driver)
         #事故发生的可能性
         try:
-            com.dropDownBox(driver,ex.xpathCon('shigukeneng'),'完全可能预料')
+            com.dropDownBox(driver,ex.xpathCon('jishigukeneng'),'完全可能预料')
         except:
             com.tapWeb(driver)
-            com.dropDownBox(driver, ex.xpathCon('shigukeneng'), '完全可能预料')
+            com.dropDownBox(driver, ex.xpathCon('jishigukeneng'), '完全可能预料')
         #暴露于危险环境的频率
-        com.dropDownBox(driver,ex.xpathCon('baolupinglv'),'每月一次暴露')
+        com.dropDownBox(driver,ex.xpathCon('jibaolupinglv'),'每月一次暴露')
         #事故后果严重程度
-        com.dropDownBox(driver,ex.xpathCon('shiguyanzhong'),'潜在违反法规和标准，造成3人以下死亡，或10人以下重伤，直接经济损失100万元以上，部分装置停工，造成地区影响')
+        com.dropDownBox(driver,ex.xpathCon('jishiguyanzhong'),'潜在违反法规和标准，造成3人以下死亡，或10人以下重伤，直接经济损失100万元以上，部分装置停工，造成地区影响')
         #点击保存
         wd.clickByXpath(driver,ex.xpathCon('save1'))
         com.waitAmoment()
@@ -349,20 +364,25 @@ class riskzoneProc(baseProc):
     #填写LS
     def enterLS(self,driver):
         # 点击添加按钮
-        wd.clickByXpath(driver,ex.xpathCon('LSadd'))
+        if com.isElement(driver, 'xpath', ex.xpathCon('LSadd')):
+            wd.clickByXpath(driver,ex.xpathCon('LSadd'))
+        else:
+            com.dragXpath(driver, ex.xpathCon('houguomoni'))
+            com.waitAmoment()
+            wd.clickByXpath(driver, ex.xpathCon('LSadd'))
         com.waitAmoment()
         com.tapWeb(driver)
         #可能发生的事故类型
         try:
-            com.dropDownBox(driver,ex.xpathCon('kenengshiguleixing'),'火灾')
+            com.dropDownBox(driver,ex.xpathCon('shiguyanzhong'),'火灾')
         except:
             com.tapWeb(driver)
-            com.dropDownBox(driver, ex.xpathCon('kenengshiguleixing'), '火灾')
+            com.dropDownBox(driver, ex.xpathCon('shiguyanzhong'), '火灾')
         #可能性级别
         com.clickOnText(driver, '可能发生的事故类型')
-        com.dropDownBox(driver,ex.xpathCon('kennegxingjibei'),'有充分、有效的防范、')
+        com.dropDownBox(driver,ex.xpathCon('jikennegxingjibei'),'有充分、有效的防范、')
         #后果严重性
-        com.dropDownBox(driver,ex.xpathCon('houguoyangzhong'),'完全符合，人员无伤亡，无直接经济损失，没有停工，形象没有受损')
+        com.dropDownBox(driver,ex.xpathCon('jibaolupinglv'),'完全符合，人员无伤亡，无直接经济损失，没有停工，形象没有受损')
         # 点击保存
         wd.clickByXpath(driver,ex.xpathCon('save1'))
         com.waitAmoment()
@@ -377,17 +397,17 @@ class riskzoneProc(baseProc):
         com.tapWeb(driver)
         #可能发生的事故类型
         try:
-            com.dropDownBox(driver,ex.xpathCon('kenengshiguleixing'),'火灾')
+            com.dropDownBox(driver,ex.xpathCon('shiguyanzhong'),'火灾')
         except:
             com.tapWeb(driver)
-            com.dropDownBox(driver, ex.xpathCon('kenengshiguleixing'), '火灾')
+            com.dropDownBox(driver, ex.xpathCon('shiguyanzhong'), '火灾')
         #控制措施的状态
         com.clickOnText(driver, '可能发生的事故类型')
-        com.dropDownBox(driver,ex.xpathCon('kongzhicuoshi'),'无控制措施')
+        com.dropDownBox(driver,ex.xpathCon('jishigukeneng'),'无控制措施')
         #人体暴露的时间
-        com.dropDownBox(driver,ex.xpathCon('rentibaolu'),'更少的暴露')
+        com.dropDownBox(driver,ex.xpathCon('jirentibaolu'),'更少的暴露')
         #伤害
-        com.dropDownBox(driver,ex.xpathCon('shanghai'),'轻微，仅需急救')
+        com.dropDownBox(driver,ex.xpathCon('jishanghai'),'轻微，仅需急救')
         # 点击保存
         wd.clickByXpath(driver, ex.xpathCon('save1'))
         com.waitAmoment()

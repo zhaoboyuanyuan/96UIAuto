@@ -9,6 +9,7 @@ from email.mime.base import MIMEBase
 from public import mailText
 
 
+file_new = "D:\\code\\96UIAutoC\\result\\result.html"
 class send_email():
 
     #邮件内容为text
@@ -16,7 +17,6 @@ class send_email():
         #邮件发送内容
         text = mailText.mailText()
         return MIMEText(text, 'plain', 'utf-8')
-
 
 
     #发送一般默认内容为text和添加附件
@@ -51,7 +51,6 @@ class send_email():
         # receiver.append("379989568@qq.com")  #王超邮箱
 
 
-
         # 发送主题
         subject = '96号文容器自动化测试报告'
 
@@ -71,9 +70,9 @@ class send_email():
         smtp.quit()
         print('邮件发送成功!')
 
+
     #添加附件
     def fuJian(self):
-        file_new = "D:\\code\\96UIAutoC\\result\\result.html"
         # 添加附件就是加上一个MIMEBase，从本地读取一个html邮件:
         with open(file_new, 'rb') as f:
             # 设置附件的MIME和文件名，这里是png类型:
@@ -92,7 +91,6 @@ class send_email():
 
     #邮件内容为html时
     def getHtml(self):
-        file_new = "D:\\code\\96UIAutoC\\result\\result.html"
         f = open(file_new, 'rb')
         mail_body = f.read()
         f.close()

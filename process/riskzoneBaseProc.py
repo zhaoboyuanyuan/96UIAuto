@@ -35,9 +35,9 @@ class riskzoneBaseProc(object):
     #填写蒙德法表格
     def enterMen(self,driver):
         #点击添加
-        try:
+        if com.isElement(driver,'xpath',ex.xpathCon('mondadd')):
             wd.clickByXpath(driver,ex.xpathCon('mondadd'))
-        except:
+        else:
             com.dragXpath(driver, ex.xpathCon('houguomoni'))
             com.waitAmoment()
             wd.clickByXpath(driver, ex.xpathCon('mondadd'))
@@ -484,6 +484,90 @@ class riskzoneBaseProc(object):
         te=com.getTextByXpath(driver,ex.xpathCon('kzfxdj'))
         if te!=text:
             com.messageAndScreen(driver,message)
+
+
+    # 泰兴版本的LEC、LS、MES
+    def taixing(self,driver):
+        self.enterLES1(driver)
+        self.enterLS1(driver)
+        self.enterMES1(driver)
+
+
+    # 填写LES
+    def enterLES1(self, driver):
+        # 点击添加按钮
+        if com.isElement(driver, 'xpath', ex.xpathCon('LECadd')):
+            wd.clickByXpath(driver, ex.xpathCon('LECadd'))
+        else:
+            com.dragXpath(driver, ex.xpathCon('houguomoni'))
+            com.waitAmoment()
+            wd.clickByXpath(driver, ex.xpathCon('LECadd'))
+        com.waitAmoment()
+        com.tapWeb(driver)
+        # 事故发生的可能性
+        try:
+            com.dropDownBox(driver,ex.xpathCon('shigukeneng'),'完全可能预料')
+        except:
+            com.tapWeb(driver)
+            com.dropDownBox(driver, ex.xpathCon('shigukeneng'), '完全可能预料')
+        # 暴露于危险环境的频率
+        com.dropDownBox(driver,ex.xpathCon('baolupinglv'),'每月一次暴露')
+        # 事故后果严重程度
+        com.dropDownBox(driver,ex.xpathCon('shiguyanzhong'),'潜在违反法规和标准，造成3人以下死亡，或10人以下重伤，直接经济损失100万元以上，部分装置停工，造成地区影响')
+        # 点击保存
+        wd.clickByXpath(driver, ex.xpathCon('save1'))
+        com.waitAmoment()
+
+    # 填写LS
+    def enterLS1(self, driver):
+        # 点击添加按钮
+        if com.isElement(driver, 'xpath', ex.xpathCon('LSadd')):
+            wd.clickByXpath(driver, ex.xpathCon('LSadd'))
+        else:
+            com.dragXpath(driver, ex.xpathCon('houguomoni'))
+            com.waitAmoment()
+            wd.clickByXpath(driver, ex.xpathCon('LSadd'))
+        com.waitAmoment()
+        com.tapWeb(driver)
+        # 可能发生的事故类型
+        try:
+            com.dropDownBox(driver,ex.xpathCon('kenengshiguleixing'),'火灾')
+        except:
+            com.tapWeb(driver)
+            com.dropDownBox(driver, ex.xpathCon('kenengshiguleixing'), '火灾')
+        # 可能性级别
+        com.clickOnText(driver, '可能发生的事故类型')
+        com.dropDownBox(driver,ex.xpathCon('kennegxingjibei'),'有充分、有效的防范、')
+        # 后果严重性
+        com.dropDownBox(driver,ex.xpathCon('houguoyangzhong'),'完全符合，人员无伤亡，无直接经济损失，没有停工，形象没有受损')
+        # 点击保存
+        wd.clickByXpath(driver, ex.xpathCon('save1'))
+        com.waitAmoment()
+
+    # 填写MES
+    def enterMES1(self, driver):
+        # 滑动到MES法评估等级
+        com.dragXpath(driver, ex.xpathCon('MESdengji'))
+        # 点击添加按钮
+        wd.clickByXpath(driver, ex.xpathCon('MESadd'))
+        com.waitAmoment()
+        com.tapWeb(driver)
+        # 可能发生的事故类型
+        try:
+            com.dropDownBox(driver,ex.xpathCon('kenengshiguleixing'),'火灾')
+        except:
+            com.tapWeb(driver)
+            com.dropDownBox(driver, ex.xpathCon('kenengshiguleixing'), '火灾')
+        # 控制措施的状态
+        com.clickOnText(driver, '可能发生的事故类型')
+        com.dropDownBox(driver,ex.xpathCon('kongzhicuoshi'),'无控制措施')
+        # 人体暴露的时间
+        com.dropDownBox(driver,ex.xpathCon('rentibaolu'),'更少的暴露')
+        # 伤害
+        com.dropDownBox(driver,ex.xpathCon('shanghai'),'轻微，仅需急救')
+        # 点击保存
+        wd.clickByXpath(driver, ex.xpathCon('save1'))
+        com.waitAmoment()
 
 
 

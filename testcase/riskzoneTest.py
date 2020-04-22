@@ -8,6 +8,24 @@ from process.initializationProc import initializationProc
 from process.riskzoneProc import riskzoneProc
 from public.openWeb import openWeb
 
+'''
+    二、企业风险分区
+    1、评估单元划分
+    2、区域固有风险评估（校验值），L值，S值，区域固有风险的验证。
+    3、控制风险评估（默认加个等待时间）
+     LS   LEC   MES配置计算风险等级
+     蒙德法，道化学法，订制脚本计算风险等级，查看页面没有报错。
+         事故后果模拟，订制脚本计算事故后果模拟。
+    需要验证1、表单里面的风险值；2、管控措施清单的风险值；3、风险点清单的风险值；风险点固有等级风险值。
+    4、企业四色图打点，包括单元打点，风险点打点，查看打点信息等
+    5、事故后果模拟打点，验证图形画出来。
+
+    泰兴容器与基线容器的区别
+    1、评估单元划分中有防爆区划分与风险点清单，添加清单的xpath不同
+    2、区域控制风险评估、LEC、LS、MES三张表都不一样，需要处理
+
+'''
+
 
 o = openWeb()
 com = commonProc()
@@ -26,7 +44,7 @@ class riskzoneTest(unittest.TestCase):
         o.writeTearDown()
 
 
-    # 1、填写评估单元划分
+    # 1、填写评估单元划分（基线与泰兴有区别）
     def testassessmen(self):
         u"""填写评估单元划分"""
         rz.assessmentUnits(self.driver)
@@ -36,7 +54,7 @@ class riskzoneTest(unittest.TestCase):
         u"""区域固有风险评估（校验值），L值，S值，区域固有风险的验证。"""
         rz.inherent(self.driver)
 
-    # 3、控制风险评估
+    # 3、控制风险评估 （基线与泰兴有区别）
     def testcontrol(self):
         u"""控制风险评估"""
         rz.controlRisk(self.driver)
